@@ -83,6 +83,30 @@
                               
                             </td> 
                         </tr>
+                        <tr>
+                        	<td>3</td>
+                        	<td>test</td>
+                        	<td>test2</td>
+                            <td>1224344</td>
+                           
+                            <td>active</td>
+                            <td style="text-align:center">
+                               <a href=""><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                </a>
+                                
+                                &nbsp;&nbsp;
+                                
+                                <a href="#" onclick=""><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
+                                </a>
+                              
+                                &nbsp;&nbsp;
+                               
+                                    <a href="">
+                                    <i class="fa fa-key" aria-hidden="true" style="color:#628239" title="access Rights"></i>
+                                    </a>
+                              
+                            </td> 
+                        </tr>
                            
                     </tbody>
                 </table>
