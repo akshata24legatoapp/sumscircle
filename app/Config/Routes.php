@@ -39,6 +39,7 @@ $routes->get('/', 'Home::index');
 $routes->get('login', 'Login::index');
 $routes->get('roles', 'Roles::index');
 $routes->get('add_role', 'Roles::add_role');
+$routes->get('user_list', 'User::index');
 
 /*
  * --------------------------------------------------------------------
