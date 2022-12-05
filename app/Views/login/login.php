@@ -20,7 +20,7 @@
 					<div class="w-lg-500px bg-white rounded shadow-sm p-10 p-lg-15 mx-auto">
 						<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" action="<?php echo base_url();?>login/checklogin" method="post" >
 							<div class="text-center mb-10">
-								<h1 class="text-dark mb-3">Sign In to Sumcircle</h1>
+								<h1 class="text-dark mb-3">Sign into Sumcircle</h1>
 								<!-- <div class="text-gray-400 fw-bold fs-4">New Here?
 									<a href="" class="link-primary fw-bolder">Create an Account</a>
 								</div> -->
