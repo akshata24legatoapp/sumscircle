@@ -35,11 +35,35 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
 $routes->get('/', 'Home::index');
 $routes->get('login', 'Login::index');
-$routes->get('roles', 'Roles::index');
-$routes->get('add_role', 'Roles::add_role');
-$routes->get('user_list', 'User::index');
+$routes->post('check_login', 'Login::check_login');
+$routes->post('save_user', 'Admin::save_users');
+$routes->post('save_role', 'Admin::save_role');
+$routes->post('deleteRole', 'Admin::deleteRole');
+$routes->post('deleteUser', 'Admin::deleteUser');
+$routes->post('checkpassword', 'Login::checkpassword');
+$routes->post('updatePassword', 'Login::updatePassword');
+$routes->post('updateProfile', 'Login::updateProfile');
+
+$routes->group('',['filter' => 'auth'], function ($routes) {
+
+    $routes->get('logout', 'Login::logout');
+    $routes->get('dashboard', 'Dashboard::index');
+    $routes->get('add_role', 'Admin::add_role');
+    $routes->get('admin', 'Admin::index');
+    $routes->get('edit_role/(:any)', 'Admin::edit_role/$1');
+    $routes->get('user_list', 'Admin::user_list');
+    $routes->get('add_user', 'Admin::add_users');
+    $routes->get('edit_user/(:any)', 'Admin::edit_user/$1');
+    $routes->get('view_user_rights/(:any)', 'Admin::view_user_rights/$1');
+    $routes->get('change_password', 'Login::change_password');
+    $routes->get('view_profile', 'Login::view_profile');
+
+});
+
+
 
 /*
  * --------------------------------------------------------------------

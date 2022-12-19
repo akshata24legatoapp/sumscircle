@@ -18,7 +18,8 @@
 						<!-- <img alt="Logo" src="" class="h-45px" /> -->
 					<!-- </a> -->
 					<div class="w-lg-500px bg-white rounded shadow-sm p-10 p-lg-15 mx-auto">
-						<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" action="<?php echo base_url();?>login/checklogin" method="post" >
+						<form class="form w-100" novalidate="novalidate" id="login_form" method="post" >
+							<input type="hidden" id="baseurl" value="<?php echo base_url();?>">
 							<div class="text-center mb-10">
 								<h1 class="text-dark mb-3">Sign into Sumcircle</h1>
 								<!-- <div class="text-gray-400 fw-bold fs-4">New Here?
@@ -40,7 +41,7 @@
 								<span id="pwd" style="display:none;color:red">The password is required</span>
 							</div>
 							<div class="text-center">
-								<button type="button" id="kt_sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5" onclick="validateform()">
+								<button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5" onclick="">
 									
 									<span class="indicator-label">Sign-In</span>
 									<span class="indicator-progress">Please wait...

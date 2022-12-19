@@ -1,0 +1,10 @@
+CRITICAL - 2022-12-14 22:47:01 --> Call to undefined function form_error()
+in APPPATH\Views\login\change_password.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login/change_password', [], true)
+ 4 APPPATH\Controllers\Login.php(79): view('login/change_password')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->change_password()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

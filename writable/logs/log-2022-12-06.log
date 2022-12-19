@@ -1,0 +1,1001 @@
+CRITICAL - 2022-12-06 00:51:25 --> Undefined variable $model_res
+in APPPATH\Views\roles\add_role1.php on line 71.
+ 1 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_res', 'APPPATH\\Views\\roles\\add_role1.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 5 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:11 --> Undefined variable $model_res
+in APPPATH\Views\roles\add_role1.php on line 72.
+ 1 APPPATH\Views\roles\add_role1.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_res', 'APPPATH\\Views\\roles\\add_role1.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 5 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:13 --> Undefined variable $model_res
+in APPPATH\Views\roles\add_role1.php on line 72.
+ 1 APPPATH\Views\roles\add_role1.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_res', 'APPPATH\\Views\\roles\\add_role1.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 5 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:52:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:54:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\roles\add_role1.php(71): CodeIgniter\Model->__call('getSubmenusByMenuid', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 7 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:58:46 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 77.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 00:59:39 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 77.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:00:02 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:00:02 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:00:03 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:00:03 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:00:03 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:00:18 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:00:19 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:01:12 --> syntax error, unexpected token "print"
+in APPPATH\Views\roles\add_role1.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 3 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:26:54 --> Undefined variable $menuid
+in APPPATH\Views\roles\add_role1.php on line 81.
+ 1 APPPATH\Views\roles\add_role1.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menuid', 'APPPATH\\Views\\roles\\add_role1.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 5 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 01:30:20 --> Undefined variable $val
+in APPPATH\Views\roles\add_role1.php on line 89.
+ 1 APPPATH\Views\roles\add_role1.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'APPPATH\\Views\\roles\\add_role1.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\add_role1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/add_role1', [], true)
+ 5 APPPATH\Controllers\Roles.php(21): view('roles/add_role1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->add_role1()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:08:02 --> Array callback must have exactly two elements
+in APPPATH\Models\RoleModel.php on line 29.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:09:49 --> Array callback must have exactly two elements
+in APPPATH\Models\RoleModel.php on line 29.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:11:49 --> Array callback must have exactly two elements
+in APPPATH\Models\RoleModel.php on line 29.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:13:52 --> Undefined variable $ssuername
+in APPPATH\Models\RoleModel.php on line 36.
+ 1 APPPATH\Models\RoleModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ssuername', 'APPPATH\\Models\\RoleModel.php', 36)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:23:43 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 101.
+ 1 APPPATH\Models\RoleModel.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 101)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:25:20 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 103.
+ 1 APPPATH\Models\RoleModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 103)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:26:31 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 103.
+ 1 APPPATH\Models\RoleModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 103)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:26:57 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 103.
+ 1 APPPATH\Models\RoleModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 103)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:28:11 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 82.
+ 1 APPPATH\Models\RoleModel.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 82)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:29:32 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 82.
+ 1 APPPATH\Models\RoleModel.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 82)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:30:27 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 83.
+ 1 APPPATH\Models\RoleModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 83)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:31:05 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 83.
+ 1 APPPATH\Models\RoleModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 83)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:31:44 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 83.
+ 1 APPPATH\Models\RoleModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 83)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:32:54 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 88.
+ 1 APPPATH\Models\RoleModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 88)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:33:35 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 88.
+ 1 APPPATH\Models\RoleModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 88)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:33:52 --> Undefined variable $CurrentDateTime
+in APPPATH\Models\RoleModel.php on line 79.
+ 1 APPPATH\Models\RoleModel.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CurrentDateTime', 'APPPATH\\Models\\RoleModel.php', 79)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:36:21 --> Undefined variable $ssuername
+in APPPATH\Models\RoleModel.php on line 36.
+ 1 APPPATH\Models\RoleModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ssuername', 'APPPATH\\Models\\RoleModel.php', 36)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:37:12 --> Undefined variable $ssuername
+in APPPATH\Models\RoleModel.php on line 36.
+ 1 APPPATH\Models\RoleModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ssuername', 'APPPATH\\Models\\RoleModel.php', 36)
+ 2 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:25:15 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 80.
+ 1 APPPATH\Views\roles\edit_role.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:25:29 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 80.
+ 1 APPPATH\Views\roles\edit_role.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:25:30 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 80.
+ 1 APPPATH\Views\roles\edit_role.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:26:09 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 80.
+ 1 APPPATH\Views\roles\edit_role.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:26:52 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 80.
+ 1 APPPATH\Views\roles\edit_role.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:26:53 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 80.
+ 1 APPPATH\Views\roles\edit_role.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:28:34 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 81.
+ 1 APPPATH\Views\roles\edit_role.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:13 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:14 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:15 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:15 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:15 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:15 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:15 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:16 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:16 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:16 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:16 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:29:16 --> Undefined variable $role_name
+in APPPATH\Views\roles\edit_role.php on line 43.
+ 1 APPPATH\Views\roles\edit_role.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'APPPATH\\Views\\roles\\edit_role.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:30:01 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 73.
+ 1 APPPATH\Views\roles\edit_role.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:30:01 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 73.
+ 1 APPPATH\Views\roles\edit_role.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:30:01 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 73.
+ 1 APPPATH\Views\roles\edit_role.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:30:02 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 73.
+ 1 APPPATH\Views\roles\edit_role.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:30:02 --> Undefined variable $menus
+in APPPATH\Views\roles\edit_role.php on line 73.
+ 1 APPPATH\Views\roles\edit_role.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\roles\\edit_role.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(31): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:43:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Roles.php(30): CodeIgniter\Model->__call('getAllMenuByRoleId', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:13 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:41 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:42 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:53 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:53 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:54 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:54 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:54 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:55 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:50:55 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:51:44 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:51:45 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:52:48 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:52:50 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:53:21 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:53:22 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:53:22 --> Undefined constant "App\Models\role_id"
+in APPPATH\Models\RoleModel.php on line 117.
+ 1 APPPATH\Controllers\Roles.php(30): App\Models\RoleModel->getAllMenuByRoleId('15')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:55:57 --> syntax error, unexpected token "}"
+in APPPATH\Views\roles\edit_role.php on line 89.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 3 APPPATH\Controllers\Roles.php(32): view('roles/edit_role', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:55:58 --> syntax error, unexpected token "}"
+in APPPATH\Views\roles\edit_role.php on line 89.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 3 APPPATH\Controllers\Roles.php(32): view('roles/edit_role', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:15:36 --> Undefined array key "rr_sid"
+in APPPATH\Views\roles\edit_role.php on line 97.
+ 1 APPPATH\Views\roles\edit_role.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rr_sid"', 'APPPATH\\Views\\roles\\edit_role.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(32): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:16:01 --> Undefined array key "rr_sid"
+in APPPATH\Views\roles\edit_role.php on line 97.
+ 1 APPPATH\Views\roles\edit_role.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rr_sid"', 'APPPATH\\Views\\roles\\edit_role.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(32): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:16:01 --> Undefined array key "rr_sid"
+in APPPATH\Views\roles\edit_role.php on line 97.
+ 1 APPPATH\Views\roles\edit_role.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rr_sid"', 'APPPATH\\Views\\roles\\edit_role.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(32): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:19:16 --> Undefined array key "rr_sid"
+in APPPATH\Views\roles\edit_role.php on line 97.
+ 1 APPPATH\Views\roles\edit_role.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rr_sid"', 'APPPATH\\Views\\roles\\edit_role.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\edit_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/edit_role', [], true)
+ 5 APPPATH\Controllers\Roles.php(32): view('roles/edit_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->edit_role('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:50:41 --> syntax error, unexpected token "}"
+in APPPATH\Views\roles\role.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/role', [], true)
+ 3 APPPATH\Controllers\Roles.php(17): view('roles/role', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:09:09 --> Undefined variable $insertid
+in APPPATH\Models\RoleModel.php on line 92.
+ 1 APPPATH\Models\RoleModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insertid', 'APPPATH\\Models\\RoleModel.php', 92)
+ 2 APPPATH\Controllers\Roles.php(39): App\Models\RoleModel->save_role([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:33:17 --> Undefined property: App\Controllers\Roles::$consumer
+in APPPATH\Controllers\Roles.php on line 44.
+ 1 APPPATH\Controllers\Roles.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Roles::$consumer', 'APPPATH\\Controllers\\Roles.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:33:51 --> Undefined variable $up
+in APPPATH\Models\RoleModel.php on line 233.
+ 1 APPPATH\Models\RoleModel.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $up', 'APPPATH\\Models\\RoleModel.php', 233)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:34:45 --> Undefined variable $up
+in APPPATH\Models\RoleModel.php on line 233.
+ 1 APPPATH\Models\RoleModel.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $up', 'APPPATH\\Models\\RoleModel.php', 233)
+ 2 APPPATH\Controllers\Roles.php(45): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:44:01 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 236.
+ 1 APPPATH\Models\RoleModel.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 236)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:45:13 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 236.
+ 1 APPPATH\Models\RoleModel.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 236)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:47:15 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 236.
+ 1 APPPATH\Models\RoleModel.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 236)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:48:12 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 236.
+ 1 APPPATH\Models\RoleModel.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 236)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:49:28 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 237.
+ 1 APPPATH\Models\RoleModel.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 237)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:50:26 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 237.
+ 1 APPPATH\Models\RoleModel.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 237)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:52:22 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 237.
+ 1 APPPATH\Models\RoleModel.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 237)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:53:06 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 237.
+ 1 APPPATH\Models\RoleModel.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 237)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:54:21 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 238.
+ 1 APPPATH\Models\RoleModel.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 238)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:56:10 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 239.
+ 1 APPPATH\Models\RoleModel.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 239)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:57:17 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 239.
+ 1 APPPATH\Models\RoleModel.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 239)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:58:41 --> Array to string conversion
+in APPPATH\Models\RoleModel.php on line 240.
+ 1 APPPATH\Models\RoleModel.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\RoleModel.php', 240)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:01:17 --> Undefined variable $result
+in APPPATH\Models\RoleModel.php on line 244.
+ 1 APPPATH\Models\RoleModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Models\\RoleModel.php', 244)
+ 2 APPPATH\Controllers\Roles.php(44): App\Models\RoleModel->deleteRole([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->deleteRole()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:05:41 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\header.php on line 5.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Views\roles\role.php(1): view('header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\role.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/role', [], true)
+ 7 APPPATH\Controllers\Roles.php(18): view('roles/role', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

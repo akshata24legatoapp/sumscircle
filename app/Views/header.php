@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>sumcircle</title>
+		<title><?php if(!empty($title)){ echo $title;}else{echo 'sumcircle';}?></title>
 		<meta name="Pro-Bizdel" content="Pro-Bizdel">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">	
 		<?php echo view('script');?>
@@ -66,6 +66,8 @@
 </style>
 
 <script>
+	var BASE_URL = "<?php echo base_url()?>";
+
 	$(document).ready(function() {
 		$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 		    $($.fn.dataTable.tables(true)).DataTable()
@@ -112,14 +114,25 @@
 
 		});
 </script>
+<?php
 
+$session = session();
+
+	$flag='';
+	if($session->getFlashdata('success')){
+	   	$flag = 'success';
+	}else if($session->getFlashdata('fail')){
+	   	$flag = 'error';
+	   }
+	if($flag != ''){
+?>
 
     <script>
     	toastr.options = {
 	  	"closeButton": false,
 	  	"debug": false,
 	  	"newestOnTop": false,
-	  	"progressBar": false,
+	  	"progressBar": true,
 	  	"positionClass": "toast-bottom-right",
 	  	"preventDuplicates": false,
 	  	"onclick": null,
@@ -132,13 +145,21 @@
 	  	"showMethod": "fadeIn",
 	  	"hideMethod": "fadeOut",
 	  	 
-  		iconClasses:{
+  		/*iconClasses:{
             success: 'fas fa-check',
     		error: 'fas fa-trash',
-    	},
+    	},*/
 
-    };
     
+    
+    };   
+
+    toastr['<?php echo $flag?>']('<?php echo $session->getFlashdata($flag)?>')
+    </script>
+    <?php }
+     $session->remove($flag);
+    //$this->session->unset_userdata($flag);
+    ?>
     
            
     </script>
