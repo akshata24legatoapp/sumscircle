@@ -1,0 +1,589 @@
+CRITICAL - 2022-12-06 03:30:40 --> Call to a member function method() on null
+in APPPATH\Controllers\Categories.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:30:59 --> Call to a member function method() on null
+in APPPATH\Controllers\Categories.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:31:02 --> Call to a member function method() on null
+in APPPATH\Controllers\Categories.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:31:14 --> Call to a member function method() on null
+in APPPATH\Controllers\Categories.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:32:53 --> Call to a member function server() on null
+in APPPATH\Controllers\Categories.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:32:57 --> Call to a member function server() on null
+in APPPATH\Controllers\Categories.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:33:28 --> Call to a member function post() on null
+in APPPATH\Controllers\Categories.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:56:11 --> Call to undefined method App\Libraries\com_mod_lib::com_mod_lib()
+in APPPATH\Controllers\Categories.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:56:15 --> Call to undefined method App\Libraries\com_mod_lib::com_mod_lib()
+in APPPATH\Controllers\Categories.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:57:36 --> Call to undefined method App\Libraries\com_mod_lib::com_mod_lib()
+in APPPATH\Controllers\Categories.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:58:53 --> Call to undefined method App\Libraries\com_mod_lib::com_mod_lib()
+in APPPATH\Controllers\Categories.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:59:07 --> Call to undefined method App\Libraries\com_mod_lib::com_mod_lib()
+in APPPATH\Controllers\Categories.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:09:41 --> Undefined property: App\Libraries\com_mod_lib::$db
+in APPPATH\Libraries\com_mod_lib.php on line 13.
+ 1 APPPATH\Libraries\com_mod_lib.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$db', 'APPPATH\\Libraries\\com_mod_lib.php', 13, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:13:53 --> Undefined property: App\Libraries\com_mod_lib::$db
+in APPPATH\Libraries\com_mod_lib.php on line 13.
+ 1 APPPATH\Libraries\com_mod_lib.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$db', 'APPPATH\\Libraries\\com_mod_lib.php', 13, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:18:44 --> Undefined property: App\Libraries\com_mod_lib::$db
+in APPPATH\Libraries\com_mod_lib.php on line 21.
+ 1 APPPATH\Libraries\com_mod_lib.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$db', 'APPPATH\\Libraries\\com_mod_lib.php', 21, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:27:08 --> Undefined property: App\Libraries\com_mod_lib::$db
+in APPPATH\Libraries\com_mod_lib.php on line 21.
+ 1 APPPATH\Libraries\com_mod_lib.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$db', 'APPPATH\\Libraries\\com_mod_lib.php', 21, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:36:13 --> Undefined property: App\Libraries\com_mod_lib::$db
+in APPPATH\Libraries\com_mod_lib.php on line 22.
+ 1 APPPATH\Libraries\com_mod_lib.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$db', 'APPPATH\\Libraries\\com_mod_lib.php', 22, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:36:18 --> Undefined property: App\Libraries\com_mod_lib::$db
+in APPPATH\Libraries\com_mod_lib.php on line 22.
+ 1 APPPATH\Libraries\com_mod_lib.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$db', 'APPPATH\\Libraries\\com_mod_lib.php', 22, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:36:26 --> Undefined property: App\Libraries\com_mod_lib::$db
+in APPPATH\Libraries\com_mod_lib.php on line 22.
+ 1 APPPATH\Libraries\com_mod_lib.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$db', 'APPPATH\\Libraries\\com_mod_lib.php', 22, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 04:37:34 --> Undefined variable: builder
+in APPPATH\Libraries\com_mod_lib.php on line 29.
+ 1 APPPATH\Libraries\com_mod_lib.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Libraries\\com_mod_lib.php', 29, [...])
+ 2 APPPATH\Controllers\Categories.php(39): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 04:47:35 --> mysqli_sql_exception: Column 'category_name' cannot be null in C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\wamp64\www\sumscircle\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\wamp64\www\sumscircle\app\Libraries\com_mod_lib.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\sumscircle\app\Controllers\Categories.php(25): App\Libraries\com_mod_lib->insertdata(Array, 'category_t')
+#6 C:\wamp64\www\sumscircle\system\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+#7 C:\wamp64\www\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#8 C:\wamp64\www\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-06 04:47:35 --> Column 'category_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (NULL, NULL, \'1\', \'session\', \'2022-12-06 04:47:34\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (NULL, NULL, \'1\', \'session\', \'2022-12-06 04:47:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (NULL, NULL, \'1\', \'session\', \'2022-12-06 04:47:34\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (:category_name:, :category_type:, :category_status:, :created_by:, :created_date:)', [...], false)
+ 5 APPPATH\Libraries\com_mod_lib.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Categories.php(25): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 04:48:14 --> mysqli_sql_exception: Column 'category_name' cannot be null in C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\wamp64\www\sumscircle\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\wamp64\www\sumscircle\app\Libraries\com_mod_lib.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\sumscircle\app\Controllers\Categories.php(25): App\Libraries\com_mod_lib->insertdata(Array, 'category_t')
+#6 C:\wamp64\www\sumscircle\system\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+#7 C:\wamp64\www\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#8 C:\wamp64\www\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-06 04:48:14 --> Column 'category_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (NULL, NULL, \'1\', \'session\', \'2022-12-06 04:48:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (NULL, NULL, \'1\', \'session\', \'2022-12-06 04:48:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (NULL, NULL, \'1\', \'session\', \'2022-12-06 04:48:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `category_t` (`category_name`, `category_type`, `category_status`, `created_by`, `created_date`) VALUES (:category_name:, :category_type:, :category_status:, :created_by:, :created_date:)', [...], false)
+ 5 APPPATH\Libraries\com_mod_lib.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Categories.php(25): App\Libraries\com_mod_lib->insertdata([...], 'category_t')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_add()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:16:58 --> Call to undefined method App\Libraries\com_mod_lib::getLastQuery()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:18:05 --> Undefined variable: db
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 APPPATH\Controllers\Categories.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Controllers\\Categories.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:18:15 --> Call to undefined method App\Libraries\com_mod_lib::getLastQuery()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:18:16 --> Call to undefined method App\Libraries\com_mod_lib::getLastQuery()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:19:46 --> Call to undefined method App\Libraries\com_mod_lib::last_query()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:19:49 --> Call to undefined method App\Libraries\com_mod_lib::last_query()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:19:49 --> Call to undefined method App\Libraries\com_mod_lib::last_query()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:19:49 --> Call to undefined method App\Libraries\com_mod_lib::last_query()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:20:41 --> Call to undefined method App\Libraries\com_mod_lib::getLastQuery()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:21:53 --> Call to undefined method App\Libraries\com_mod_lib::getLastQuery()
+in APPPATH\Controllers\Categories.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:24:49 --> Undefined variable: testimonial
+in APPPATH\Views\categories\categories_view.php on line 35.
+ 1 APPPATH\Views\categories\categories_view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: testimonial', 'APPPATH\\Views\\categories\\categories_view.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\categories_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('categories/categories_view', [], true)
+ 5 APPPATH\Controllers\Categories.php(29): view('categories/categories_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:26:13 --> Undefined offset: 0
+in APPPATH\Views\categories\categories_view.php on line 38.
+ 1 APPPATH\Views\categories\categories_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\categories\\categories_view.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\categories_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('categories/categories_view', [], true)
+ 5 APPPATH\Controllers\Categories.php(29): view('categories/categories_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:48:42 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Categories.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Categories.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Categories')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Categories', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:49:09 --> Undefined property: App\Controllers\Categories::$modelCommon
+in APPPATH\Controllers\Categories.php on line 49.
+ 1 APPPATH\Controllers\Categories.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Categories::$modelCommon', 'APPPATH\\Controllers\\Categories.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_delete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:50:02 --> Undefined offset: 0
+in APPPATH\Libraries\com_mod_lib.php on line 97.
+ 1 APPPATH\Libraries\com_mod_lib.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Libraries\\com_mod_lib.php', 97, [...])
+ 2 APPPATH\Controllers\Categories.php(49): App\Libraries\com_mod_lib->update([...], [...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_delete('2')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 05:51:31 --> Undefined offset: 0
+in APPPATH\Libraries\com_mod_lib.php on line 97.
+ 1 APPPATH\Libraries\com_mod_lib.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Libraries\\com_mod_lib.php', 97, [...])
+ 2 APPPATH\Controllers\Categories.php(51): App\Libraries\com_mod_lib->update([...], [...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_delete('2')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:03:37 --> Illegal offset type
+in APPPATH\Libraries\com_mod_lib.php on line 113.
+ 1 APPPATH\Libraries\com_mod_lib.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Libraries\\com_mod_lib.php', 113, [...])
+ 2 APPPATH\Controllers\Categories.php(52): App\Libraries\com_mod_lib->Delete([...], [...], 'category_t')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_delete('2')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:17:43 --> Too few arguments to function App\Controllers\Categories::categorie_update_done(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Categories.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_update_done()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 06:18:09 --> mysqli_sql_exception: Unknown column 'testimonial_id' in 'where clause' in C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `categor...', 0)
+#1 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `categor...')
+#2 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `categor...')
+#3 C:\wamp64\www\sumscircle\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `categor...', Array, false)
+#4 C:\wamp64\www\sumscircle\app\Libraries\com_mod_lib.php(81): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\sumscircle\app\Controllers\Categories.php(70): App\Libraries\com_mod_lib->update(Array, Array, 'category_t')
+#6 C:\wamp64\www\sumscircle\system\CodeIgniter.php(927): App\Controllers\Categories->categorie_update_done()
+#7 C:\wamp64\www\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#8 C:\wamp64\www\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-06 06:18:09 --> Unknown column 'testimonial_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `category_t` SET `category_name` = \'wasim khan \', `category_type` = \'update\', `updated_date` = \'2022-12-06 06:18:09\', `updated_by` = \'wasim\'
+WHERE `testimonial_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `category_t` SET `category_name` = \'wasim khan \', `category_type` = \'update\', `updated_date` = \'2022-12-06 06:18:09\', `updated_by` = \'wasim\'
+WHERE `testimonial_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `category_t` SET `category_name` = \'wasim khan \', `category_type` = \'update\', `updated_date` = \'2022-12-06 06:18:09\', `updated_by` = \'wasim\'
+WHERE `testimonial_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category_t` SET `category_name` = :category_name:, `category_type` = :category_type:, `updated_date` = :updated_date:, `updated_by` = :updated_by:
+WHERE `testimonial_id` = :testimonial_id:', [...], false)
+ 5 APPPATH\Libraries\com_mod_lib.php(81): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Categories.php(70): App\Libraries\com_mod_lib->update([...], [...], 'category_t')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_update_done()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:59:32 --> Undefined property: App\Libraries\com_mod_lib::$request
+in APPPATH\Libraries\com_mod_lib.php on line 22.
+ 1 APPPATH\Libraries\com_mod_lib.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$request', 'APPPATH\\Libraries\\com_mod_lib.php', 22, [...])
+ 2 APPPATH\Controllers\Categories.php(72): App\Libraries\com_mod_lib->insertdata()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:01:14 --> Array to string conversion
+in APPPATH\Controllers\Categories.php on line 72.
+ 1 APPPATH\Controllers\Categories.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Categories.php', 72, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:03:17 --> Undefined property: App\Controllers\Categories::$input
+in APPPATH\Controllers\Categories.php on line 72.
+ 1 APPPATH\Controllers\Categories.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Categories::$input', 'APPPATH\\Controllers\\Categories.php', 72, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:04:31 --> Function name must be a string
+in APPPATH\Controllers\Categories.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:05:37 --> Undefined property: App\Libraries\com_mod_lib::$request
+in APPPATH\Libraries\com_mod_lib.php on line 23.
+ 1 APPPATH\Libraries\com_mod_lib.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\com_mod_lib::$request', 'APPPATH\\Libraries\\com_mod_lib.php', 23, [...])
+ 2 APPPATH\Controllers\Categories.php(73): App\Libraries\com_mod_lib->insertdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:08:35 --> Array to string conversion
+in APPPATH\Libraries\com_mod_lib.php on line 25.
+ 1 APPPATH\Libraries\com_mod_lib.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\com_mod_lib.php', 25, [...])
+ 2 APPPATH\Controllers\Categories.php(73): App\Libraries\com_mod_lib->insertdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:12:28 --> Undefined variable: field
+in APPPATH\Libraries\com_mod_lib.php on line 39.
+ 1 APPPATH\Libraries\com_mod_lib.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: field', 'APPPATH\\Libraries\\com_mod_lib.php', 39, [...])
+ 2 APPPATH\Controllers\Categories.php(36): App\Libraries\com_mod_lib->select_data('category_t', '*', [...], [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_update('2')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:14:28 --> Undefined variable: categorie_view
+in APPPATH\Views\categories\categories_view.php on line 34.
+ 1 APPPATH\Views\categories\categories_view.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categorie_view', 'APPPATH\\Views\\categories\\categories_view.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\categories_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('categories/categories_view', [], true)
+ 5 APPPATH\Controllers\Categories.php(28): view('categories/categories_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:17:49 --> Too few arguments to function App\Libraries\com_mod_lib::select_data(), 0 passed in C:\wamp64\www\sumscircle\app\Controllers\Categories.php on line 16 and exactly 1 expected
+in APPPATH\Libraries\com_mod_lib.php on line 34.
+ 1 APPPATH\Controllers\Categories.php(16): App\Libraries\com_mod_lib->select_data()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:24:46 --> Too few arguments to function App\Libraries\com_mod_lib::select_data(), 0 passed in C:\wamp64\www\sumscircle\app\Controllers\Categories.php on line 16 and exactly 1 expected
+in APPPATH\Libraries\com_mod_lib.php on line 34.
+ 1 APPPATH\Controllers\Categories.php(16): App\Libraries\com_mod_lib->select_data()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:58:56 --> Undefined property: App\Controllers\Categories::$db
+in APPPATH\Controllers\Categories.php on line 16.
+ 1 APPPATH\Controllers\Categories.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Categories::$db', 'APPPATH\\Controllers\\Categories.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:59:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_data()
+in APPPATH\Controllers\Categories.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:00:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::view()
+in APPPATH\Controllers\Categories.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:02:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Categories.php(16): CodeIgniter\Model->__call('view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:02:36 --> Undefined property: App\Controllers\Categories::$db
+in APPPATH\Controllers\Categories.php on line 34.
+ 1 APPPATH\Controllers\Categories.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Categories::$db', 'APPPATH\\Controllers\\Categories.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:08:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\categorie_model.php(16): CodeIgniter\Model->__get('dbs')
+ 4 APPPATH\Controllers\Categories.php(16): App\Models\categorie_model->view()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:09:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\categorie_model.php(16): CodeIgniter\Model->__get('dbs')
+ 4 APPPATH\Controllers\Categories.php(16): App\Models\categorie_model->view()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:09:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\categorie_model.php(16): CodeIgniter\Model->__get('dbs')
+ 4 APPPATH\Controllers\Categories.php(16): App\Models\categorie_model->view()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:10:23 --> Invalid argument supplied for foreach()
+in APPPATH\Views\categories\categories_view.php on line 34.
+ 1 APPPATH\Views\categories\categories_view.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\categories\\categories_view.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\categories_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('categories/categories_view', [], true)
+ 5 APPPATH\Controllers\Categories.php(20): view('categories/categories_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:11:00 --> Undefined index: category_name
+in APPPATH\Views\categories\categories_view.php on line 37.
+ 1 APPPATH\Views\categories\categories_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: category_name', 'APPPATH\\Views\\categories\\categories_view.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\categories_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('categories/categories_view', [], true)
+ 5 APPPATH\Controllers\Categories.php(20): view('categories/categories_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categorie_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:12:37 --> Undefined property: App\Controllers\Categories::$db
+in APPPATH\Controllers\Categories.php on line 36.
+ 1 APPPATH\Controllers\Categories.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Categories::$db', 'APPPATH\\Controllers\\Categories.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:15:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Categories.php(34): CodeIgniter\Model->__call('select_data', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:15:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Categories.php(34): CodeIgniter\Model->__call('select_data', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:15:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Categories.php(34): CodeIgniter\Model->__call('select_data', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:17:18 --> Undefined variable: categories_update
+in APPPATH\Views\categories\categories_edit.php on line 39.
+ 1 APPPATH\Views\categories\categories_edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categories_update', 'APPPATH\\Views\\categories\\categories_edit.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\categories\\categories_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('categories/categories_edit', [], true)
+ 5 APPPATH\Controllers\Categories.php(37): view('categories/categories_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:20:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(373): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Categories.php(40): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->categories_delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:23:26 --> Undefined property: App\Controllers\Categories::$db
+in APPPATH\Controllers\Categories.php on line 52.
+ 1 APPPATH\Controllers\Categories.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Categories::$db', 'APPPATH\\Controllers\\Categories.php', 52, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:24:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Categories.php(52): CodeIgniter\Model->__call('insertdata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:25:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Categories.php(52): CodeIgniter\Model->__call('insertdata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Categories->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

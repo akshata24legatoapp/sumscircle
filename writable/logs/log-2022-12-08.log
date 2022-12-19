@@ -1,0 +1,105 @@
+CRITICAL - 2022-12-08 01:12:43 --> Undefined variable: value
+in APPPATH\Models\Catlog_model.php on line 43.
+ 1 APPPATH\Models\Catlog_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Models\\Catlog_model.php', 43, [...])
+ 2 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 01:15:23 --> Call to undefined method App\Libraries\common_db_lib::update_master_Att()
+in APPPATH\Models\Catlog_model.php on line 47.
+ 1 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 01:18:25 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 106.
+ 1 APPPATH\Libraries\common_db_lib.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 106, [...])
+ 2 APPPATH\Models\Catlog_model.php(47): App\Libraries\common_db_lib->update_master_attr([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 04:45:57 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 04:46:24 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 04:46:42 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 04:46:50 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 04:54:50 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 05:07:14 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 05:07:30 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 106.
+ 1 APPPATH\Libraries\common_db_lib.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 106, [...])
+ 2 APPPATH\Models\Catlog_model.php(47): App\Libraries\common_db_lib->update_master_attr([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 05:10:53 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 05:11:10 --> Undefined index: Status
+in APPPATH\Libraries\common_db_lib.php on line 71.
+ 1 APPPATH\Libraries\common_db_lib.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Libraries\\common_db_lib.php', 71, [...])
+ 2 APPPATH\Models\Catlog_model.php(44): App\Libraries\common_db_lib->insert_master_Att([...])
+ 3 APPPATH\Controllers\Catlog.php(64): App\Models\Catlog_model->add_master_attr([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,19 @@
+CRITICAL - 2022-12-16 00:10:10 --> Undefined variable: value
+in APPPATH\Views\Catlog\Catlog_view.php on line 42.
+ 1 APPPATH\Views\Catlog\Catlog_view.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Views\\Catlog\\Catlog_view.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\Catlog_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/Catlog_view', [], true)
+ 5 APPPATH\Controllers\Catlog.php(20): view('Catlog/Catlog_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:53:48 --> Undefined index: drop_val
+in APPPATH\Models\Catlog_model.php on line 160.
+ 1 APPPATH\Models\Catlog_model.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: drop_val', 'APPPATH\\Models\\Catlog_model.php', 160, [...])
+ 2 APPPATH\Controllers\Catlog.php(101): App\Models\Catlog_model->add_attr_variation([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

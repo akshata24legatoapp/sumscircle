@@ -1,0 +1,131 @@
+CRITICAL - 2022-12-13 00:09:27 --> Array to string conversion
+in APPPATH\Controllers\Catlog.php on line 83.
+ 1 APPPATH\Controllers\Catlog.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Catlog.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:09:33 --> Array to string conversion
+in APPPATH\Controllers\Catlog.php on line 83.
+ 1 APPPATH\Controllers\Catlog.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Catlog.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:21:53 --> Undefined property: App\Controllers\Catlog::$db
+in APPPATH\Controllers\Catlog.php on line 92.
+ 1 APPPATH\Controllers\Catlog.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Catlog::$db', 'APPPATH\\Controllers\\Catlog.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:22:44 --> Undefined variable: Value
+in APPPATH\Views\Catlog\master_attr_view.php on line 71.
+ 1 APPPATH\Views\Catlog\master_attr_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Value', 'APPPATH\\Views\\Catlog\\master_attr_view.php', 71, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\master_attr_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/master_attr_view', [], true)
+ 5 APPPATH\Controllers\Catlog.php(62): view('Catlog/master_attr_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:58:14 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:58:52 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:59:19 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:02:01 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:38:47 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:53:39 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 62.
+ 1 APPPATH\Models\Catlog_model.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 62, [...])
+ 2 APPPATH\Controllers\Catlog.php(53): App\Models\Catlog_model->Catlog_add([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:00:20 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 62.
+ 1 APPPATH\Models\Catlog_model.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 62, [...])
+ 2 APPPATH\Controllers\Catlog.php(53): App\Models\Catlog_model->Catlog_add([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:04:06 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:23:28 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 62.
+ 1 APPPATH\Models\Catlog_model.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 62, [...])
+ 2 APPPATH\Controllers\Catlog.php(53): App\Models\Catlog_model->Catlog_add([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:23:52 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:25:51 --> Undefined index: Status
+in APPPATH\Models\Catlog_model.php on line 77.
+ 1 APPPATH\Models\Catlog_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Status', 'APPPATH\\Models\\Catlog_model.php', 77, [...])
+ 2 APPPATH\Controllers\Catlog.php(68): App\Models\Catlog_model->add_master_attr([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:49:35 --> Undefined index: master_attributes_t.id
+in APPPATH\Views\Catlog\attributes_variations.php on line 42.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: master_attributes_t.id', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(95): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

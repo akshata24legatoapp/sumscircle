@@ -38,9 +38,7 @@
               
                   <?php 
                    foreach($submenus as $val1) {
-
                       $subid = $val1['id'];
-
                     ?>
                     <li class="m-menu__item sub" data-id='<?php echo $menuid."@@".$val1['id'] ?>' id="submenu_<?php echo $val1['id']?>"  aria-haspopup="true">
                     <a href="<?php echo base_url();?><?php echo $val1['url']?>" class="m-menu__link" onclick="">

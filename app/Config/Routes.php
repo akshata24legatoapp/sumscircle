@@ -41,6 +41,34 @@ $routes->get('roles', 'Roles::index');
 $routes->get('add_role', 'Roles::add_role');
 $routes->get('user_list', 'User::index');
 
+// catlog routes
+$routes->get('Catlog-view', 'Catlog::Catlog_view');
+$routes->get('Catlog-add', 'Catlog::Catlog_add');
+$routes->post('/Catlog-upload', 'Catlog::Catlog_upload');
+$routes->get('/Catlog-update/(:num)', 'Catlog::Catlog_update/$1');
+$routes->post('/Catlog-update-done', 'Catlog::Catlog_update_done');
+$routes->post('/Catlog-delete', 'Catlog::Catlog_delete');
+
+// master attributes routes
+$routes->get('/master-attribute-view', 'Catlog::master_attr_view');
+$routes->post('/master-attribute-upload', 'Catlog::master_attr_upload');
+$routes->post('/master-attribute-delete', 'Catlog::master_attr_delete');
+$routes->post('/master-attribute-update', 'Catlog::master_attr_update');
+
+// attributes variations routes
+$routes->get('/attribute-variation-list', 'Catlog::attr_variation_list');
+$routes->post('/attribute-variation-upload', 'Catlog::attr_variation_upload');
+$routes->post('/attribute-variation-update', 'Catlog::attr_variation_update');
+$routes->post('/attribute-variation-delete', 'Catlog::attr_variation_delete');
+
+
+
+
+
+
+
+// $routes->match(['get', 'post'], 'categorie', 'Categories::categorie_add');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -1,0 +1,229 @@
+CRITICAL - 2022-12-07 00:23:39 --> Invalid file: Catlog/Catlog_add.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Catlog/Catlog_add.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/Catlog_add', [], true)
+ 3 APPPATH\Controllers\Catlog.php(26): view('Catlog/Catlog_add')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_add()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 00:24:51 --> Invalid file: Catlog/Catlog_add.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Catlog/Catlog_add.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/Catlog_add', [], true)
+ 3 APPPATH\Controllers\Catlog.php(26): view('Catlog/Catlog_add')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_add()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 00:26:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Catlog.php(17): CodeIgniter\Model->__call('category_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 00:27:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Catlog.php(17): CodeIgniter\Model->__call('category_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 00:28:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Catlog.php(17): CodeIgniter\Model->__call('category_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 00:28:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Catlog.php(17): CodeIgniter\Model->__call('category_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 00:30:47 --> Undefined variable: categories_update
+in APPPATH\Views\Catlog\Catlog_edit.php on line 39.
+ 1 APPPATH\Views\Catlog\Catlog_edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categories_update', 'APPPATH\\Views\\Catlog\\Catlog_edit.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\Catlog_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/Catlog_edit', [], true)
+ 5 APPPATH\Controllers\Catlog.php(34): view('Catlog/Catlog_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 05:54:02 --> Undefined index: cat_name
+in APPPATH\Libraries\common_db_lib.php on line 15.
+ 1 APPPATH\Libraries\common_db_lib.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cat_name', 'APPPATH\\Libraries\\common_db_lib.php', 15, [...])
+ 2 APPPATH\Models\Catlog_model.php(36): App\Libraries\common_db_lib->insertdata([...])
+ 3 APPPATH\Controllers\Catlog.php(63): App\Models\Catlog_model->Catlog_add([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 05:55:05 --> Call to undefined method App\Libraries\common_db_lib::insert_master_Att()
+in APPPATH\Models\Catlog_model.php on line 42.
+ 1 APPPATH\Controllers\Catlog.php(63): App\Models\Catlog_model->add_master_attr([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_upload()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 06:02:20 --> Undefined variable: view_master_attr
+in APPPATH\Views\Catlog\master_attr_view.php on line 31.
+ 1 APPPATH\Views\Catlog\master_attr_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_master_attr', 'APPPATH\\Views\\Catlog\\master_attr_view.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\master_attr_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/master_attr_view', [], true)
+ 5 APPPATH\Controllers\Catlog.php(59): view('Catlog/master_attr_view')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 06:45:51 --> Undefined variable: data
+in APPPATH\Views\Catlog\master_attr_view.php on line 104.
+ 1 APPPATH\Views\Catlog\master_attr_view.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Catlog\\master_attr_view.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\master_attr_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/master_attr_view', [], true)
+ 5 APPPATH\Controllers\Catlog.php(59): view('Catlog/master_attr_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 06:46:06 --> Undefined variable: id
+in APPPATH\Views\Catlog\master_attr_view.php on line 104.
+ 1 APPPATH\Views\Catlog\master_attr_view.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Views\\Catlog\\master_attr_view.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\master_attr_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/master_attr_view', [], true)
+ 5 APPPATH\Controllers\Catlog.php(59): view('Catlog/master_attr_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 06:47:52 --> Undefined variable: id
+in APPPATH\Views\Catlog\master_attr_view.php on line 104.
+ 1 APPPATH\Views\Catlog\master_attr_view.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Views\\Catlog\\master_attr_view.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\master_attr_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/master_attr_view', [], true)
+ 5 APPPATH\Controllers\Catlog.php(59): view('Catlog/master_attr_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 06:47:59 --> Undefined variable: id
+in APPPATH\Views\Catlog\master_attr_view.php on line 104.
+ 1 APPPATH\Views\Catlog\master_attr_view.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Views\\Catlog\\master_attr_view.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\master_attr_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/master_attr_view', [], true)
+ 5 APPPATH\Controllers\Catlog.php(59): view('Catlog/master_attr_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:13:51 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:13:55 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:13:59 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:14:03 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:14:50 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:15:23 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:16:05 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:16:29 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:17:06 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:17:58 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 08:25:19 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 23:22:41 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 23:40:45 --> Too few arguments to function App\Controllers\Catlog::master_attr_update(), 0 passed in C:\wamp64\www\sumscircle\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Catlog.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 23:41:45 --> Array to string conversion
+in APPPATH\Controllers\Catlog.php on line 77.
+ 1 APPPATH\Controllers\Catlog.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Catlog.php', 77, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_update()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 23:53:15 --> Too few arguments to function App\Libraries\common_db_lib::view_master_Att(), 0 passed in C:\wamp64\www\sumscircle\app\Models\Catlog_model.php on line 48 and exactly 1 expected
+in APPPATH\Libraries\common_db_lib.php on line 78.
+ 1 APPPATH\Models\Catlog_model.php(48): App\Libraries\common_db_lib->view_master_Att()
+ 2 APPPATH\Controllers\Catlog.php(58): App\Models\Catlog_model->view_master_attr()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->master_attr_view()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

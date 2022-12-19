@@ -1,0 +1,115 @@
+CRITICAL - 2022-12-14 00:04:45 --> Undefined index: attributes_variations_t.id
+in APPPATH\Views\Catlog\attributes_variations.php on line 42.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: attributes_variations_t.id', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(95): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 00:11:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\wamp64\www\sumscircle\app\Models\Catlog_model.php on line 191
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 APPPATH\Models\Catlog_model.php(191): CodeIgniter\Database\BaseBuilder->get('*')
+ 2 APPPATH\Controllers\Catlog.php(91): App\Models\Catlog_model->view_att_variation()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 00:24:39 --> Undefined index: idsget
+in APPPATH\Views\Catlog\attributes_variations.php on line 42.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idsget', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(95): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 05:55:02 --> Undefined variable: port
+in APPPATH\Views\Catlog\Catlog_edit.php on line 67.
+ 1 APPPATH\Views\Catlog\Catlog_edit.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: port', 'APPPATH\\Views\\Catlog\\Catlog_edit.php', 67, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\Catlog_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/Catlog_edit', [], true)
+ 5 APPPATH\Controllers\Catlog.php(35): view('Catlog/Catlog_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->Catlog_update('7')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 06:04:15 --> mysqli_sql_exception: Column 'deleted_by' in where clause is ambiguous in C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `attr...', 0)
+#1 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `attr...')
+#2 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `attr...')
+#3 C:\wamp64\www\sumscircle\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `attr...', Array, false)
+#4 C:\wamp64\www\sumscircle\app\Models\Catlog_model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sumscircle\app\Controllers\Catlog.php(91): App\Models\Catlog_model->view_att_variation()
+#6 C:\wamp64\www\sumscircle\system\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+#7 C:\wamp64\www\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+#8 C:\wamp64\www\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-14 06:04:15 --> Column 'deleted_by' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = :deleted_by:', [...], false)
+ 5 APPPATH\Models\Catlog_model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Catlog.php(91): App\Models\Catlog_model->view_att_variation()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 06:04:51 --> mysqli_sql_exception: Column 'deleted_by' in where clause is ambiguous in C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `attr...', 0)
+#1 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `attr...')
+#2 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `attr...')
+#3 C:\wamp64\www\sumscircle\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `attr...', Array, false)
+#4 C:\wamp64\www\sumscircle\app\Models\Catlog_model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sumscircle\app\Controllers\Catlog.php(91): App\Models\Catlog_model->view_att_variation()
+#6 C:\wamp64\www\sumscircle\system\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+#7 C:\wamp64\www\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+#8 C:\wamp64\www\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-14 06:04:51 --> Column 'deleted_by' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `attributes_variations_t`.`id` as `idsget`
+FROM `attributes_variations_t`
+JOIN `master_attributes_t` ON `master_attributes_t`.`id`=`attributes_variations_t`.`master_attribute_id`
+WHERE `deleted_by` = :deleted_by:', [...], false)
+ 5 APPPATH\Models\Catlog_model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Catlog.php(91): App\Models\Catlog_model->view_att_variation()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

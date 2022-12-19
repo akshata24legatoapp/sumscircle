@@ -1,0 +1,259 @@
+CRITICAL - 2022-12-09 05:46:05 --> Undefined variable: view_master_attr
+in APPPATH\Views\Catlog\attributes_variations.php on line 32.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_master_attr', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(89): view('Catlog/attributes_variations')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 05:56:28 --> Array to string conversion
+in APPPATH\Controllers\Catlog.php on line 90.
+ 1 APPPATH\Controllers\Catlog.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Catlog.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:16:20 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(90): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:17:02 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(90): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:17:14 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(90): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:17:16 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(90): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:17:25 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(90): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:17:25 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(90): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:17:26 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(90): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:18:45 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(91): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-09 06:19:36 --> mysqli_sql_exception: Unknown column 'attributes_status' in 'where clause' in C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\sumscircle\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sumscircle\app\Libraries\common_db_lib.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sumscircle\app\Models\Catlog_model.php(97): App\Libraries\common_db_lib->view_att_variation()
+#6 C:\wamp64\www\sumscircle\app\Controllers\Catlog.php(90): App\Models\Catlog_model->view_att_variation()
+#7 C:\wamp64\www\sumscircle\system\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+#8 C:\wamp64\www\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+#9 C:\wamp64\www\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-09 06:19:36 --> Unknown column 'attributes_status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = :attributes_status:', [...], false)
+ 5 APPPATH\Libraries\common_db_lib.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Catlog_model.php(97): App\Libraries\common_db_lib->view_att_variation()
+ 7 APPPATH\Controllers\Catlog.php(90): App\Models\Catlog_model->view_att_variation()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:19:40 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(91): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-09 06:20:07 --> mysqli_sql_exception: Unknown column 'attributes_status' in 'where clause' in C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\sumscircle\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sumscircle\app\Libraries\common_db_lib.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sumscircle\app\Models\Catlog_model.php(97): App\Libraries\common_db_lib->view_att_variation()
+#6 C:\wamp64\www\sumscircle\app\Controllers\Catlog.php(90): App\Models\Catlog_model->view_att_variation()
+#7 C:\wamp64\www\sumscircle\system\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+#8 C:\wamp64\www\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+#9 C:\wamp64\www\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-09 06:20:07 --> Unknown column 'attributes_status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `attributes_variations_t`
+WHERE `attributes_status` = :attributes_status:', [...], false)
+ 5 APPPATH\Libraries\common_db_lib.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Catlog_model.php(97): App\Libraries\common_db_lib->view_att_variation()
+ 7 APPPATH\Controllers\Catlog.php(90): App\Models\Catlog_model->view_att_variation()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:20:53 --> Undefined variable: dropdone_master_val
+in APPPATH\Views\Catlog\attributes_variations.php on line 64.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dropdone_master_val', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(91): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:21:10 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(91): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:21:27 --> Undefined variable: dropdone_master_val
+in APPPATH\Views\Catlog\attributes_variations.php on line 64.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dropdone_master_val', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(91): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:26:09 --> Undefined variable: dropdone_master_val
+in APPPATH\Views\Catlog\attributes_variations.php on line 64.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dropdone_master_val', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(91): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:26:19 --> Undefined variable: view_att_variation
+in APPPATH\Views\Catlog\attributes_variations.php on line 33.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: view_att_variation', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(91): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:32:14 --> Too few arguments to function App\Libraries\common_db_lib::view_att_variation(), 0 passed in C:\wamp64\www\sumscircle\app\Models\Catlog_model.php on line 97 and exactly 1 expected
+in APPPATH\Libraries\common_db_lib.php on line 140.
+ 1 APPPATH\Models\Catlog_model.php(97): App\Libraries\common_db_lib->view_att_variation()
+ 2 APPPATH\Controllers\Catlog.php(90): App\Models\Catlog_model->view_att_variation()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 06:54:38 --> Undefined index: master_attr_name
+in APPPATH\Libraries\common_db_lib.php on line 106.
+ 1 APPPATH\Libraries\common_db_lib.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: master_attr_name', 'APPPATH\\Libraries\\common_db_lib.php', 106, [...])
+ 2 APPPATH\Models\Catlog_model.php(91): App\Libraries\common_db_lib->update_master_attr([...])
+ 3 APPPATH\Controllers\Catlog.php(95): App\Models\Catlog_model->add_attr_variation([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-11 23:37:38 --> Undefined variable: Value
+in APPPATH\Views\Catlog\attributes_variations.php on line 39.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Value', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(88): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 23:45:24 --> Undefined offset: 0
+in APPPATH\Views\Catlog\attributes_variations.php on line 36.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(89): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

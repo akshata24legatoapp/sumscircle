@@ -76,7 +76,7 @@
                     </div>
                    
                     <!--begin::Form-->
-                     <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="customerform" action="" method= "POST" 
+                     <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="customerform" action="#" method= "POST" 
                         enctype="multipart/form-data" autocomplete="off">
                         <input type="hidden" name="Customer_ID" id="Customer_ID" class="form-control" value=""> 
                         <div class="m-portlet__body">
