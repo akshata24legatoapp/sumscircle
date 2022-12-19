@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CRITICAL - 2022-12-11 23:37:38 --> Undefined variable: Value
 in APPPATH\Views\Catlog\attributes_variations.php on line 39.
  1 APPPATH\Views\Catlog\attributes_variations.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Value', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 39, [...])
@@ -20,3 +21,25 @@ in APPPATH\Views\Catlog\attributes_variations.php on line 36.
  7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+=======
+CRITICAL - 2022-12-11 23:53:14 --> Call to a member function getSubmenusByMenuid() on null
+in APPPATH\Views\admin\add_role1.php on line 72.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_role1', [], true)
+ 4 APPPATH\Controllers\Admin.php(23): view('admin/add_role1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_role1()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 23:56:17 --> Call to a member function getSubmenusByMenuid() on null
+in APPPATH\Views\admin\add_role1.php on line 72.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_role1', [], true)
+ 4 APPPATH\Controllers\Admin.php(23): view('admin/add_role1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_role1()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+>>>>>>> d027f389e4e6a3c1cdda1542dcf5487eb6dd7ad1

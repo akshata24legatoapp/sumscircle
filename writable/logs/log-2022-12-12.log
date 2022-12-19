@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CRITICAL - 2022-12-12 03:42:42 --> Undefined offset: 0
 in APPPATH\Views\Catlog\attributes_variations.php on line 36.
  1 APPPATH\Views\Catlog\attributes_variations.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 36, [...])
@@ -595,3 +596,1175 @@ in APPPATH\Views\Catlog\master_attr_view.php on line 37.
  7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+=======
+CRITICAL - 2022-12-12 00:02:11 --> Call to a member function getSubmenusByRoleId() on null
+in APPPATH\Views\admin\edit_role.php on line 83.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_role', [], true)
+ 4 APPPATH\Controllers\Admin.php(34): view('admin/edit_role', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->edit_role('17')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:03:26 --> The route for "admin" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin')
+ 2 APPPATH\Controllers\Admin.php(40): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_role()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:39:43 --> Invalid file: admin/add_user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/add_user.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(55): view('admin/add_user')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:41:04 --> Undefined property: App\Controllers\Admin::$user_model
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$user_model', 'APPPATH\\Controllers\\Admin.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->user_list()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:52:39 --> Undefined array key "id"
+in APPPATH\Views\admin\add_user.php on line 49.
+ 1 APPPATH\Views\admin\add_user.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\add_user.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:28:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(264): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:28:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(264): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:29:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(264): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:29:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(264): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:29:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(264): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:33:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(266): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:36:11 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 61 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 APPPATH\Controllers\Admin.php(61): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:40:15 --> Undefined array key "user_image"
+in APPPATH\Controllers\Admin.php on line 61.
+ 1 APPPATH\Controllers\Admin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_image"', 'APPPATH\\Controllers\\Admin.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:40:16 --> Undefined array key "user_image"
+in APPPATH\Controllers\Admin.php on line 61.
+ 1 APPPATH\Controllers\Admin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_image"', 'APPPATH\\Controllers\\Admin.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:40:17 --> Undefined array key "user_image"
+in APPPATH\Controllers\Admin.php on line 61.
+ 1 APPPATH\Controllers\Admin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_image"', 'APPPATH\\Controllers\\Admin.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:41:54 --> Call to undefined function App\Controllers\getName()
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:41:55 --> Call to undefined function App\Controllers\getName()
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:41:56 --> Call to undefined function App\Controllers\getName()
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:41:56 --> Call to undefined function App\Controllers\getName()
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:16 --> Undefined variable $file
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:16 --> Undefined variable $file
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:17 --> Undefined variable $file
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:17 --> Undefined variable $file
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:17 --> Undefined variable $file
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:17 --> Undefined variable $file
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:17 --> Undefined variable $file
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:30 --> Call to a member function getName() on array
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:31 --> Call to a member function getName() on array
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:31 --> Call to a member function getName() on array
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:42:31 --> Call to a member function getName() on array
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:51:08 --> syntax error, unexpected single-quoted string "id="userform""
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:51:10 --> syntax error, unexpected single-quoted string "id="userform""
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:51:10 --> syntax error, unexpected single-quoted string "id="userform""
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:51:11 --> syntax error, unexpected single-quoted string "id="userform""
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:51:34 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:51:35 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:52:13 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:52:14 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:52:14 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:52:14 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:52:33 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:52:34 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:52:34 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:53:53 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:53:54 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:06 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:07 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:08 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:08 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:09 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:09 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:24 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:43 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:56:44 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 4 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:57:15 --> syntax error, unexpected token ";"
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:57:16 --> syntax error, unexpected token ";"
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:57:17 --> syntax error, unexpected token ";"
+in APPPATH\Views\admin\add_user.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(57): view('admin/add_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:59:47 --> Undefined array key "user_image"
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_image"', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:00:24 --> Undefined array key "user_image"
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_image"', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:08:20 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 62 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:11:33 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 62 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:11:56 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 62 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:11:57 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 62 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:12:13 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 62 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:12:57 --> Undefined array key "user_image"
+in APPPATH\Controllers\Admin.php on line 62.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_image"', 'APPPATH\\Controllers\\Admin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:17:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(272): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:18:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(272): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:19:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(272): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:19:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(272): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:20:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(271): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:20:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(271): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:21:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(271): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:22:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(271): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:22:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(271): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:23:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(265): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:24:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(265): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:24:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(265): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:25:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(265): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:27:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(265): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:27:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(265): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(61): App\Models\AdminModel->save_users([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:28:41 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 62 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 APPPATH\Controllers\Admin.php(62): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:31:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(266): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Admin.php(64): App\Models\AdminModel->save_users([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 03:25:45 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::name()
+in APPPATH\Models\AdminModel.php on line 273.
+ 1 APPPATH\Controllers\Admin.php(62): App\Models\AdminModel->save_users([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 03:52:39 --> Undefined variable $roles
+in APPPATH\Views\admin\edit_user.php on line 50.
+ 1 APPPATH\Views\admin\edit_user.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\admin\\edit_user.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(62): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->edit_user('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:04:50 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\admin\edit_user.php on line 105.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 3 APPPATH\Controllers\Admin.php(63): view('admin/edit_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->edit_user('6')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:45:41 --> fopen(http://localhost/sumscircle/public/assets/images/users/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/sumscircle/public/assets/images/users/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/sumscircle/public/assets/images/users/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/sumscircle/public/assets/images/users/')
+ 4 APPPATH\Models\AdminModel.php(269): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/sumscircle/public/assets/images/users/')
+ 5 APPPATH\Controllers\Admin.php(69): App\Models\AdminModel->save_users([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:51:59 --> fopen(http://localhost/sumscircle/public/assets/images/users/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/sumscircle/public/assets/images/users/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/sumscircle/public/assets/images/users/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/sumscircle/public/assets/images/users/')
+ 4 APPPATH\Models\AdminModel.php(272): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/sumscircle/public/assets/images/users/')
+ 5 APPPATH\Controllers\Admin.php(69): App\Models\AdminModel->save_users([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 05:14:20 --> fopen(http://localhost/sumscircle/public/assets/images/users/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/sumscircle/public/assets/images/users/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/sumscircle/public/assets/images/users/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/sumscircle/public/assets/images/users/')
+ 4 APPPATH\Models\AdminModel.php(273): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/sumscircle/public/assets/images/users/', 'Screenshot (1).png')
+ 5 APPPATH\Controllers\Admin.php(69): App\Models\AdminModel->save_users([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 05:49:21 --> syntax error, unexpected identifier "view"
+in APPPATH\Controllers\Admin.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 05:49:34 --> Undefined variable $data
+in APPPATH\Controllers\Admin.php on line 74.
+ 1 APPPATH\Controllers\Admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Admin.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 05:49:50 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php on line 75
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Admin.php(75): view('admin/view_user_rights', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 05:59:41 --> Cannot redeclare App\Models\AdminModel::getAllMenuByRoleId()
+in APPPATH\Models\AdminModel.php on line 351.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 06:22:38 --> Undefined variable $id
+in APPPATH\Controllers\Admin.php on line 74.
+ 1 APPPATH\Controllers\Admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Admin.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:22:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(360): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:22:52 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\AdminModel.php on line 361.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:24:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(360): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:24:31 --> Attempt to read property "get" on bool
+in APPPATH\Models\AdminModel.php on line 361.
+ 1 APPPATH\Models\AdminModel.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "get" on bool', 'APPPATH\\Models\\AdminModel.php', 361)
+ 2 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:26:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:26:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:27:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:27:34 --> Undefined variable $query
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Models\AdminModel.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'APPPATH\\Models\\AdminModel.php', 360)
+ 2 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:27:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:27:53 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:28:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:28:52 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:28:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:28:53 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:29:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:29:08 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:29:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-12 06:29:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-12 06:30:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:30:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(360): CodeIgniter\Model->__call('getLastquery', [])
+ 4 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:31:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'menu_t.menu_name,submenus_t.submenu_name 
+					FROM users_t u
+					LEFT JOI...' at line 1 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:34:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\AdminModel.php on line 360.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:35:13 --> Undefined variable $menus
+in APPPATH\Views\admin\view_user_rights.php on line 66.
+ 1 APPPATH\Views\admin\view_user_rights.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'APPPATH\\Views\\admin\\view_user_rights.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\view_user_rights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/view_user_rights', [], true)
+ 5 APPPATH\Controllers\Admin.php(76): view('admin/view_user_rights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 06:37:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY menu_t.menu_name' at line 8 in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT role_rig...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT role_rig...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT role_rig...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php(358): CodeIgniter\Database\BaseConnection->query('SELECT role_rig...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 06:37:04 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\AdminModel.php on line 361.
+ 1 APPPATH\Controllers\Admin.php(75): App\Models\AdminModel->getuser_rights('10')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view_user_rights('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:41:25 --> syntax error, unexpected token "function", expecting "("
+in APPPATH\Models\AdminModel.php on line 353.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\AdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AdminModel')
+ 3 APPPATH\Controllers\Admin.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:41:39 --> syntax error, unexpected token "function", expecting "("
+in APPPATH\Models\AdminModel.php on line 353.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\AdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AdminModel')
+ 3 APPPATH\Controllers\Admin.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:50:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Models\AdminModel.php(307): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\assets\\images\\users', 'ROOTPATH\\public')
+ 3 APPPATH\Controllers\Admin.php(69): App\Models\AdminModel->save_users([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:27:36 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Models\AdminModel.php(307): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\assets\\images\\users', 'ROOTPATH\\public')
+ 3 APPPATH\Controllers\Admin.php(69): App\Models\AdminModel->save_users([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->save_users()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:54:38 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\header.php on line 119.
+ 1 APPPATH\Views\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\header.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Views\admin\user_list.php(1): view('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_list.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_list', [], true)
+ 9 APPPATH\Controllers\Admin.php(53): view('admin/user_list', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->user_list()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:57:17 --> Undefined variable $session
+in APPPATH\Views\header.php on line 119.
+ 1 APPPATH\Views\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\header.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Views\admin\add_role1.php(1): view('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\add_role1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_role1', [], true)
+ 9 APPPATH\Controllers\Admin.php(23): view('admin/add_role1', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_role1()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:58:19 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\header.php on line 119.
+ 1 APPPATH\Views\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\header.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Views\admin\add_role1.php(1): view('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\add_role1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_role1', [], true)
+ 9 APPPATH\Controllers\Admin.php(23): view('admin/add_role1', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_role1()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:59:15 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Views\header.php on line 158.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('header', [], true)
+ 4 APPPATH\Views\admin\add_role1.php(1): view('header')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\add_role1.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_role1', [], true)
+ 8 APPPATH\Controllers\Admin.php(23): view('admin/add_role1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->add_role1()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+>>>>>>> d027f389e4e6a3c1cdda1542dcf5487eb6dd7ad1
