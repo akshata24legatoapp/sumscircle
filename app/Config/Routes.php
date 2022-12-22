@@ -46,9 +46,9 @@ $routes->post('deleteUser', 'Admin::deleteUser');
 $routes->post('checkpassword', 'Login::checkpassword');
 $routes->post('updatePassword', 'Login::updatePassword');
 $routes->post('updateProfile', 'Login::updateProfile');
-$routes->post('/Catlog-upload', 'Catlog::Catlog_upload');
-$routes->post('/Catlog-update-done', 'Catlog::Catlog_update_done');
-$routes->post('/Catlog-delete', 'Catlog::Catlog_delete');
+$routes->post('/category-upload', 'Catlog::category_upload');
+$routes->post('/category-update-done', 'Catlog::category_update_done');
+$routes->post('/category-delete', 'Catlog::category_delete');
 $routes->post('/master-attribute-upload', 'Catlog::master_attr_upload');
 $routes->post('/master-attribute-delete', 'Catlog::master_attr_delete');
 $routes->post('/master-attribute-update', 'Catlog::master_attr_update');
@@ -72,9 +72,9 @@ $routes->group('',['filter' => 'auth'], function ($routes) {
     $routes->get('change_password', 'Login::change_password');
     $routes->get('view_profile', 'Login::view_profile');
     $routes->get('/master-attribute-view', 'Catlog::master_attr_view');
-    $routes->get('Catlog-view', 'Catlog::Catlog_view');
-    $routes->get('Catlog-add', 'Catlog::Catlog_add');
-    $routes->get('/Catlog-update/(:num)', 'Catlog::Catlog_update/$1');
+    $routes->get('view-category', 'Catlog::category_view');
+    $routes->get('/add-category', 'Catlog::category_add');
+    $routes->get('/update-category/(:num)', 'Catlog::category_update/$1');
     $routes->get('/attribute-variation-list', 'Catlog::attr_variation_list');
 
 });

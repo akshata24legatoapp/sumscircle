@@ -35,7 +35,7 @@
                                 <td> <?php echo $value['attributes_name'] ?> </td>
                                 <td><?php echo $value['attribute_variation_name'] ?></td>
                                 <td <?php if ($value['attribute_variation_status'] == '1') $valstatus = 'Active';
-                                    else $valstatus = 'notactive';  ?>><?php echo $valstatus; ?></td>
+                                    else $valstatus = 'inactive';  ?>><?php echo $valstatus; ?></td>
                                 <td style="text-align:center">
                                     <a href="#" id='getidvalu' data-toggle="modal" onclick="showmore(<?= $value['idsget'] ?>)" data-target="#myModal"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
                                     </a>
@@ -67,24 +67,13 @@
             </div>
             <div class="modal-body p-4">
                 <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="Attribute_vari_form" method="POST" action="attribute-variation-upload">
-
-
-                    <!-- <div class="form-outline mb-4">
-                        <label class="form-control-label"><span style="color:red">*</span>Master Attribute Name</label>
-                        <select class="form-control m-bootstrap-select m_selectpicker" id="drop_val" name="drop_val" data-live-search="true" tabindex="3">
-                            <option value="">Select Master Attribute</option>
-                            <?php foreach ($dropdone_master_val as $value) { ?>
-                                <option value="<?php echo $value['id'] ?>"><?php echo $value['attributes_name'] ?></option>
-                            <?php } ?>
-                        </select>
-                    </div> -->
                     <div class="form-outline mb-4">
                         <label class="form-control-label"><span style="color:red">*</span>Master Attribute Name</label>
-                        <select class="form-control m-bootstrap-select m_selectpicker" id="drop_val" name="drop_val">
-                            <option value="" selected>Select Values</option>
+                        <select name="drop_val" id="drop_val" class="form-control selectpicker" data-live-search="true">
+                            <option value="">Select Values</option>
                             <?php foreach ($dropdone_master_val as $value) { ?>
-                                <option value="<?php echo $value['id'] ?>"><?php echo $value['attributes_name'] ?></option>
-                            <?php } ?>
+                                <option value="<?php echo $value['id'] ?>"> <?php echo $value['attributes_name'] ?>
+                                <?php } ?>
                         </select>
                     </div>
                     <br>
@@ -120,9 +109,10 @@
 </div>
 
 
-<script src="<?php echo base_url(); ?>/assets/js/catlog.js" type="text/javascript"></script>
 
 <?php echo view('footer'); ?>
+<script src="<?php echo base_url(); ?>/assets/js/catlog.js" type="text/javascript"></script>
+
 <script>
     $(document).ready(function() {
         $('#customerlist').DataTable();

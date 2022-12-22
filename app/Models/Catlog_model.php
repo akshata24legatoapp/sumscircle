@@ -15,7 +15,7 @@ class Catlog_model extends Model
 	}
 
 	//Catlog model codels
-	public function Catlog_view($id = '')
+	public function category_view($id = '')
 	{
 		$builder = $this->db->table('category_t');
 		$builder->where('deleted_by', '');
@@ -26,11 +26,11 @@ class Catlog_model extends Model
 		return $query->getResultArray();
 	}
 
-	public function Catlog_delete($id)
+	public function category_delete($id)
 	{
 		$data = [
 			// 'category_status' => '0',
-			'deleted_by' => 'wasim',
+			'deleted_by' => $_SESSION['username'],
 			'deleted_date' => date("Y-m-d H:i:s"),
 		];
 		$builder = $this->db->table('category_t');
@@ -40,32 +40,44 @@ class Catlog_model extends Model
 		// echo $this->db->getLastQuery();
 	}
 
-	public function Catlog_update_done($value)
+	public function category_update_done($value)
 	{
+		$susername = $_SESSION['username'];
 		$hidden_id = $value['hidden_id'];
 		$data = [
 			'category_name' => $value['cat_name'],
 			'category_type' => $value['cat_type'],
 			'category_status' => $value['Status'],
 			'updated_date' => date("Y-m-d H:i:s"),
-			'updated_by' => 'wasim',
+			'updated_by' => $susername,
 		];
 		$builder = $this->db->table('category_t');
 		$builder->where('id', $hidden_id);
 		$result = $builder->update($data);
+		$status = [
+			'success' => 'success',
+			'message' => 'Updated Successfully',
+		];
+		return $status;
+
 	}
 
-	public function Catlog_add($value)
+	public function category_add($value)
 	{
 		$builder = $this->db->table('category_t');
 		$data = [
 			'category_name' => $value['cat_name'],
 			'category_type' => $value['cat_type'],
 			'category_status' => $value['Status'],
-			'created_by' => 'session',
+			'created_by' => $_SESSION['username'],
 		];
 		$data['created_date'] = date("Y-m-d H:i:s");
 		$result = $builder->insert($data);
+		$status = [
+			'success' => 'success',
+			'message' => 'Added Successfully',
+		];
+		return $status;
 	}
 
 	//master attributes model
@@ -77,23 +89,33 @@ class Catlog_model extends Model
 			$data = [
 				'attributes_name' => $value['master_attr_name'],
 				'attributes_status' => $value['Status'],
-				'created_by' => 'wasim',
+				'created_by' => $_SESSION['username'],
 				'created_date' => date("Y-m-d H:i:s"),
 			];
 			$result = $builder->insert($data);
+			$status = [
+				'success' => 'success',
+				'message' => 'Added Successfully',
+			];
 		} else {
 			// $result = $this->lib->update_master_attr($values);
 			$data = [
 				'attributes_name' => $value['master_attr_name'],
 				'attributes_status' => $value['Status'],
-				'updated_by' => 'wasim',
+				'updated_by' => $_SESSION['username'],
 				'updated_date' => date("Y-m-d H:i:s"),
 			];
 			$builder = $this->db->table('master_attributes_t');
 			$builder->where('id', $value['hiddenvalue']);
 			$result = $builder->update($data);
 			// echo $this->db->getLastQuery();
+			$status = [
+				'success' => 'success',
+				'message' => 'Updated Successfully',
+			];
 		}
+		return $status;
+
 	}
 
 	public function view_master_attr()
@@ -116,7 +138,7 @@ class Catlog_model extends Model
 		// $result = $this->lib->delete_master_Att($id);
 		$data = [
 			// 'attributes_status' => '0',
-			'deleted_by' => 'wasim',
+			'deleted_by' => $_SESSION['username'],
 			'deleted_date' => date("Y-m-d H:i:s"),
 		];
 		$builder = $this->db->table('master_attributes_t');
@@ -160,10 +182,14 @@ class Catlog_model extends Model
 				'master_attribute_id' => $value['drop_val'],
 				'attribute_variation_name' => $value['attr_variation_name'],
 				'attribute_variation_status' => $value['Status'],
-				'created_by' => 'wasim',
+				'created_by' => $_SESSION['username'],
 				'created_date' => date("Y-m-d H:i:s"),
 			];
 			$result = $builder->insert($data);
+			$status = [
+				'success' => 'success',
+				'message' => 'Added Successfully',
+			];
 		} else {
 			// $result = $this->lib->update_attr_variation($values);
 			$data = [
@@ -171,13 +197,18 @@ class Catlog_model extends Model
 				'attribute_variation_name' => $value['attr_variation_name'],
 				// 'attribute_variation_status' => $value['Status'],
 				'deleted_by' => '',
-				'updated_by' => 'wasim',
+				'updated_by' => $_SESSION['username'],
 				'updated_date' => date("Y-m-d H:i:s"),
 			];
 			$builder = $this->db->table('attributes_variations_t');
 			$builder->where('id', $value['hiddenvalue']);
 			$result = $builder->update($data);
+			$status = [
+				'success' => 'success',
+				'message' => 'Updated Successfully',
+			];
 		}
+		return $status;
 	}
 
 	public function view_att_variation()
@@ -211,7 +242,7 @@ class Catlog_model extends Model
 		// $result = $this->lib->delete_attr_variation($id);
 		$data = [
 			// 'attribute_variation_status' => '0',
-			'deleted_by' => 'wasim',
+			'deleted_by' => $_SESSION['username'],
 			'deleted_date' => date("Y-m-d H:i:s"),
 		];
 		$builder = $this->db->table('attributes_variations_t');

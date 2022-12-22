@@ -13,48 +13,51 @@ class Catlog extends BaseController
     }
 
   
-    public function Catlog_view()
+    public function category_view()
     {
-        $data['Catlog_view'] = $this->model->Catlog_view();
+        $data['category_view'] = $this->model->category_view();
         echo view('header');
-        return view('Catlog/Catlog_view',$data);
+        return view('Catlog/category_view.php',$data);
         echo view('footer');
     }
 
-    public function Catlog_add()
+    public function category_add()
     {
         echo view('header');
-        return view('Catlog/Catlog_add');
+        return view('Catlog/category_add');
         echo view('footer');
     }
  
-    public function Catlog_update($id)
+    public function category_update($id)
     {
-        $data['Catlog_view'] = $this->model->Catlog_view($id);
+        $data['category_view'] = $this->model->category_view($id);
         echo view('header');
-        return view('Catlog/Catlog_edit',$data);
+        return view('Catlog/category_edit',$data);
         echo view('footer');
     }
     
-    public function Catlog_delete()
+    public function category_delete()
     {
         $id = isset($_REQUEST['delete_id']) ? $_REQUEST['delete_id'] : "";
-        $this->model->Catlog_delete($id);
-        return redirect()->route('Catlog-view');
+        $this->model->category_delete($id);
+        return redirect()->route('view-category');
     }
 
-    public function Catlog_update_done()
+    public function category_update_done()
     {
-        $this->model->Catlog_update_done($_POST);
-        return redirect()->route('Catlog-view');
+        $res = $this->model->category_update_done($_POST);
+        $this->session->setFlashdata($res['success'],$res['message']);
+        return redirect()->route('view-category');
     }
 
-    public function Catlog_upload()
+    public function category_upload()
     {
-        $this->model->Catlog_add($_POST);
-        return redirect()->route('Catlog-view');
+        $res = $this->model->category_add($_POST);
+        $this->session->setFlashdata($res['success'],$res['message']);
+        return redirect()->route('view-category');
     }
 
+// master attribute controller
     public function master_attr_view()
     {
         // $data = $this->model->view_master_attr();
@@ -66,7 +69,8 @@ class Catlog extends BaseController
     
     public function master_attr_upload()
     {
-        $this->model->add_master_attr($_POST);
+        $res = $this->model->add_master_attr($_POST);
+        $this->session->setFlashdata($res['success'],$res['message']);
         return redirect()->route('master-attribute-view');
     }
 
@@ -98,7 +102,8 @@ class Catlog extends BaseController
     }
     public function attr_variation_upload()
     {
-        $this->model->add_attr_variation($_POST);
+        $res = $this->model->add_attr_variation($_POST);
+        $this->session->setFlashdata($res['success'],$res['message']);
         return redirect()->route('attribute-variation-list');
     }
   
@@ -117,5 +122,3 @@ class Catlog extends BaseController
     }
 
 }
-
-?>

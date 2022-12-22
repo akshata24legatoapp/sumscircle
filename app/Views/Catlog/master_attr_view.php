@@ -32,7 +32,7 @@
                                 <td><?php echo $i; ?></td>
                                 <td><?php echo $value['attributes_name'] ?></td>
                                 <td <?php if ($value['attributes_status'] == '1') $valstatus = 'Active';
-                                    else $valstatus = 'notactive';  ?>><?php echo $valstatus ?></td>
+                                    else $valstatus = 'inactive';  ?>><?php echo $valstatus ?></td>
                                 <td style="text-align:center">
                                     <a href="#" id='getidvalu' data-toggle="modal" onclick="showmore(<?= $value['id'] ?>)" data-target="#myModal"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
                                     </a>

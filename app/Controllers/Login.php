@@ -109,6 +109,3 @@ class Login extends BaseController
 
     
 }
-
-
-?>
