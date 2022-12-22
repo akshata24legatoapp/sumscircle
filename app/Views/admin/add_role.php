@@ -19,7 +19,7 @@ $role_model_res = model('AdminModel');
                             <ul class="m-portlet__nav">
                                 <li class="m-portlet__nav-item">
                                    
-                                	<a href="<?php echo base_url()?>/admin" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
+                                	<a href="<?php echo base_url()?>/roles" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
                                 		<span><i class="fa fa-list-ul"></i><span>View Role</span></span>
                                 	</a>
                                     
@@ -100,7 +100,7 @@ $role_model_res = model('AdminModel');
                                        
                                         <button type="button" class="btn btn-primary" onclick="validateroleform()">Save</button>
                                       
-                                        <a href="<?php echo base_url()?>/admin" class="btn btn-danger">Cancel</a>
+                                        <a href="<?php echo base_url()?>/roles" class="btn btn-danger">Cancel</a>
                                     </div>
                                 </div>
                             </div>
@@ -112,6 +112,6 @@ $role_model_res = model('AdminModel');
     </div>
 </div>
 </div>
-<script type="text/javascript" src="<?php echo base_url()?>/assets/js/admin/admin.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>/public/assets/js/admin/admin.js"></script>
 
 <?php echo view('footer');?> 

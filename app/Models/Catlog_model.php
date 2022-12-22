@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Libraries\common_db_lib;
 use CodeIgniter\Model;
 
 class Catlog_model extends Model
@@ -11,7 +10,7 @@ class Catlog_model extends Model
 	public function __construct()
 	{
 		parent::__construct();
-		$this->lib = new common_db_lib();
+		
 	}
 
 	//Catlog model codels

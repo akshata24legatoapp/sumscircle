@@ -55,6 +55,7 @@ $routes->post('/master-attribute-update', 'Catlog::master_attr_update');
 $routes->post('/attribute-variation-upload', 'Catlog::attr_variation_upload');
 $routes->post('/attribute-variation-update', 'Catlog::attr_variation_update');
 $routes->post('/attribute-variation-delete', 'Catlog::attr_variation_delete');
+$routes->post('/save_inventory', 'Inventory::save_inventory');
 
 
 
@@ -63,7 +64,7 @@ $routes->group('',['filter' => 'auth'], function ($routes) {
     $routes->get('logout', 'Login::logout');
     $routes->get('dashboard', 'Dashboard::index');
     $routes->get('add_role', 'Admin::add_role');
-    $routes->get('admin', 'Admin::index');
+    $routes->get('roles', 'Admin::index');
     $routes->get('edit_role/(:any)', 'Admin::edit_role/$1');
     $routes->get('user_list', 'Admin::user_list');
     $routes->get('add_user', 'Admin::add_users');
@@ -76,6 +77,11 @@ $routes->group('',['filter' => 'auth'], function ($routes) {
     $routes->get('/add-category', 'Catlog::category_add');
     $routes->get('/update-category/(:num)', 'Catlog::category_update/$1');
     $routes->get('/attribute-variation-list', 'Catlog::attr_variation_list');
+    $routes->get('inventory', 'Inventory::index');
+    $routes->get('add_inventory', 'Inventory::add_inventory');
+    $routes->get('getProductsku', 'Inventory::getProductsku');
+    $routes->get('edit_inventory/(:any)', 'Inventory::edit_inventory/$1');
+
 
 });
 

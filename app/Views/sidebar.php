@@ -14,9 +14,14 @@
             </li>
            	
             <?php  
+              $uri = current_url(true);
+              $cur_uri = (string) $uri; 
+              $m_name = $uri->getSegment(3);
+             // print'<pre>';print_r($m_name);exit();
               $model_res = model('DashboardModel'); 
              
               $menus = $model_res->get_all_menus();
+              $abc = '';
             ?>
         
             <?php foreach($menus as $val) {
@@ -39,12 +44,20 @@
                   <?php 
                    foreach($submenus as $val1) {
                       $subid = $val1['id'];
+                      $m_name = '/'.$m_name;
+                       
+                      if($m_name == $val1['url']){
+                        $color = "color:#ebedf2";
+                      }else{
+                        $color = '';
+                      }
+
                     ?>
                     <li class="m-menu__item sub" data-id='<?php echo $menuid."@@".$val1['id'] ?>' id="submenu_<?php echo $val1['id']?>"  aria-haspopup="true">
                     <a href="<?php echo base_url();?><?php echo $val1['url']?>" class="m-menu__link" onclick="">
                       <i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span>
                       </i>
-                      <span class="m-menu__link-text" id="sub">
+                      <span class="m-menu__link-text" id="sub" style="<?php echo $color;?>">
                         <?php echo $val1['submenu_name'];?>
                       </span>
                      </a>

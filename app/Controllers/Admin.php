@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\AdminModel;
+use App\Libraries\DBLib;
 
 class Admin extends BaseController
 {
@@ -10,15 +11,17 @@ class Admin extends BaseController
     public function __construct(){
        
        $this->admin_model = new AdminModel();
+       $this->lib = new DBLib();
     }
 
     public function index(){
         $data['title'] = 'Roles list';
         $data['roles_record'] = $this->admin_model->getAllRoles();
-        return view('admin/role',$data);
+        return view('admin/role_list',$data);
     }
 
     public function add_role(){
+        $data['user_right'] = $this->lib->getuser_rights(1,1);
         $data['menus'] = $this->admin_model->getAllMenu_list();
         return view('admin/add_role',$data);
     }
@@ -34,7 +37,7 @@ class Admin extends BaseController
         $data = $this->request->getPost();
         $res = $this->admin_model->save_role($data);
         $this->session->setFlashdata($res['success'],$res['message']);
-        return redirect()->route('admin');
+        return redirect()->route('roles');
     }
 
     public function deleteRole(){

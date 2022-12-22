@@ -112,4 +112,4 @@ if(!empty($user_image)){
         </div>
     </div>
 </div>
-<script type="text/javascript" src="<?php echo base_url()?>/assets/js/login/login.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>/public/assets/js/login/login.js"></script>

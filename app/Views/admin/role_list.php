@@ -59,5 +59,5 @@
     </div>
 </div>
 
-<script type="text/javascript" src="<?php echo base_url()?>/assets/js/admin/admin.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>/public/assets/js/admin/admin.js"></script>
 <?php echo view('footer');?> 

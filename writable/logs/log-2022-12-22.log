@@ -1,0 +1,66 @@
+CRITICAL - 2022-12-22 00:04:49 --> Undefined array key "user_email"
+in APPPATH\Models\InventoryModel.php on line 42.
+ 1 APPPATH\Models\InventoryModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_email"', 'APPPATH\\Models\\InventoryModel.php', 42)
+ 2 APPPATH\Controllers\Inventory.php(35): App\Models\InventoryModel->save_inventory([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->save_inventory()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:15:32 --> Undefined variable $res
+in APPPATH\Controllers\Inventory.php on line 36.
+ 1 APPPATH\Controllers\Inventory.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'APPPATH\\Controllers\\Inventory.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->save_inventory()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:24:09 --> Undefined variable $products
+in APPPATH\Views\inventory\edit_inventory.php on line 41.
+ 1 APPPATH\Views\inventory\edit_inventory.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\inventory\\edit_inventory.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory\\edit_inventory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory/edit_inventory', [], true)
+ 5 APPPATH\Controllers\Inventory.php(43): view('inventory/edit_inventory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->edit_inventory('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:32:39 --> syntax error, unexpected token "}"
+in APPPATH\Views\inventory\edit_inventory.php on line 80.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory/edit_inventory', [], true)
+ 3 APPPATH\Controllers\Inventory.php(44): view('inventory/edit_inventory', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->edit_inventory('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:32:58 --> syntax error, unexpected token "}"
+in APPPATH\Views\inventory\edit_inventory.php on line 80.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory/edit_inventory', [], true)
+ 3 APPPATH\Controllers\Inventory.php(44): view('inventory/edit_inventory', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->edit_inventory('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:01:51 --> Undefined variable $val
+in APPPATH\Views\inventory\edit_inventory.php on line 60.
+ 1 APPPATH\Views\inventory\edit_inventory.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'APPPATH\\Views\\inventory\\edit_inventory.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory\\edit_inventory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory/edit_inventory', [], true)
+ 5 APPPATH\Controllers\Inventory.php(44): view('inventory/edit_inventory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->edit_inventory('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:09:01 --> Undefined variable $id
+in APPPATH\Views\inventory\edit_inventory.php on line 53.
+ 1 APPPATH\Views\inventory\edit_inventory.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\inventory\\edit_inventory.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory\\edit_inventory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory/edit_inventory', [], true)
+ 5 APPPATH\Controllers\Inventory.php(44): view('inventory/edit_inventory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->edit_inventory('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

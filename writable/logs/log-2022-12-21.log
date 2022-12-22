@@ -1,0 +1,37 @@
+CRITICAL - 2022-12-21 00:36:13 --> Undefined property: App\Controllers\Inventory::$input
+in APPPATH\Controllers\Inventory.php on line 28.
+ 1 APPPATH\Controllers\Inventory.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Inventory::$input', 'APPPATH\\Controllers\\Inventory.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->getProductsku()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 00:38:27 --> Undefined property: App\Controllers\Inventory::$input
+in APPPATH\Controllers\Inventory.php on line 28.
+ 1 APPPATH\Controllers\Inventory.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Inventory::$input', 'APPPATH\\Controllers\\Inventory.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->getProductsku()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 00:49:00 --> mysqli_sql_exception: Unknown column 'product_id' in 'where clause' in C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sumscircle\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT product_...', 0)
+#1 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT product_...')
+#2 C:\xampp\htdocs\sumscircle\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT product_...')
+#3 C:\xampp\htdocs\sumscircle\app\Models\InventoryModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT product_...')
+#4 C:\xampp\htdocs\sumscircle\app\Controllers\Inventory.php(29): App\Models\InventoryModel->getProductsku('1')
+#5 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(927): App\Controllers\Inventory->getProductsku()
+#6 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+#7 C:\xampp\htdocs\sumscircle\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sumscircle\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 00:49:00 --> Unknown column 'product_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT product_sku FROM product_t where product_id = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT product_sku FROM product_t where product_id = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT product_sku FROM product_t where product_id = \'1\'')
+ 4 APPPATH\Models\InventoryModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT product_sku FROM product_t where product_id = \'1\'')
+ 5 APPPATH\Controllers\Inventory.php(29): App\Models\InventoryModel->getProductsku('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->getProductsku()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
