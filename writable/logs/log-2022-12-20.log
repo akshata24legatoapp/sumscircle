@@ -1,0 +1,15 @@
+CRITICAL - 2022-12-20 23:09:39 --> Class "App\Models\InventoryModel" not found
+in APPPATH\Controllers\Inventory.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 23:22:35 --> Invalid file: inventory/add_inventory.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inventory/add_inventory.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory/add_inventory', [], true)
+ 3 APPPATH\Controllers\Inventory.php(23): view('inventory/add_inventory')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory->add_inventory()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

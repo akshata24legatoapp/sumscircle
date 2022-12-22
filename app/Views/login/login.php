@@ -60,7 +60,7 @@
 		<script src="<?php echo base_url();?>/assets/js/scripts1.bundle.js"></script>
 		<!--end::Global Javascript Bundle-->
 		<!--begin::Page Custom Javascript(used by this page)-->
-		<script src="<?php echo base_url();?>/assets/js/login/login.js"></script>
+		<script src="<?php echo base_url();?>/public/assets/js/login/login.js"></script>
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
 	</body>
