@@ -1,0 +1,46 @@
+CRITICAL - 2022-12-23 04:23:10 --> Call to undefined method App\Libraries\DBLib::getRowArray()
+in APPPATH\Models\AdminModel.php on line 204.
+ 1 APPPATH\Controllers\Admin.php(32): App\Models\AdminModel->getRoleById('1')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->edit_role('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:23:29 --> Too few arguments to function App\Libraries\DBLib::getRow(), 0 passed in C:\xampp\htdocs\sumscircle\app\Models\AdminModel.php on line 204 and exactly 1 expected
+in APPPATH\Libraries\DBLib.php on line 10.
+ 1 APPPATH\Models\AdminModel.php(204): App\Libraries\DBLib->getRow()
+ 2 APPPATH\Controllers\Admin.php(32): App\Models\AdminModel->getRoleById('1')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->edit_role('1')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:24:14 --> mysqli::query(): Argument #1 ($query) cannot be empty
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('C:\\xampp\\htdocs\\sumscircle', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('C:\\xampp\\htdocs\\sumscircle')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('C:\\xampp\\htdocs\\sumscircle')
+ 4 APPPATH\Libraries\DBLib.php(11): CodeIgniter\Database\BaseConnection->query('C:\\xampp\\htdocs\\sumscircle')
+ 5 APPPATH\Models\AdminModel.php(204): App\Libraries\DBLib->getRow()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\AdminModel->getRoleById('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->edit_role('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:24:15 --> mysqli::query(): Argument #1 ($query) cannot be empty
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('C:\\xampp\\htdocs\\sumscircle', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('C:\\xampp\\htdocs\\sumscircle')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('C:\\xampp\\htdocs\\sumscircle')
+ 4 APPPATH\Libraries\DBLib.php(11): CodeIgniter\Database\BaseConnection->query('C:\\xampp\\htdocs\\sumscircle')
+ 5 APPPATH\Models\AdminModel.php(204): App\Libraries\DBLib->getRow()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\AdminModel->getRoleById('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->edit_role('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:28:49 --> Call to undefined method App\Libraries\DBLib::getResultArray()
+in APPPATH\Models\AdminModel.php on line 215.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\AdminModel->getAllRoles()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

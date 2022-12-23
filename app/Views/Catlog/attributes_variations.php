@@ -5,7 +5,7 @@
             <div class="m-portlet__head">
                 <div class="m-portlet__head-caption">
                     <div class="m-portlet__head-title">
-                        <h3 class="m-portlet__head-text">Master Attribute List</h3>
+                        <h3 class="m-portlet__head-text">Attribute Variations List</h3>
                     </div>
                 </div>
                 <div class="m-portlet__head-tools">
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div style="padding:10px">
-                <table class="table table-striped table-bordered" id="customerlist">
+                <table class="table table-striped table-bordered" id="variationlist">
                     <thead>
                         <th>Srno</th>
                         <th>Master Attribute Name</th>
@@ -27,10 +27,11 @@
                         <th style="text-align:center">Option</th>
                     </thead>
                     <tbody>
-                        <tr>
-                            <?php $i = 1;
+                        <?php $i = 1;
                             $SearchType = '';
                             foreach ($view_att_variation as $value) { ?>
+                        <tr>
+                            
                                 <td><?php echo $i; ?></td>
                                 <td> <?php echo $value['attributes_name'] ?> </td>
                                 <td><?php echo $value['attribute_variation_name'] ?></td>
@@ -76,15 +77,13 @@
                                 <?php } ?>
                         </select>
                     </div>
-                    <br>
                     <div class="form-outline mb-4">
                         <label class="form-control-label"><span style="color:red">*</span>Attribute Variation Name</label>
-                        <input type="text" name="attr_variation_name" id="attr_variation_name" value="" class="form-control m-input" placeholder="Master Attribute" tabindex="3" required>
+                        <input type="text" name="attr_variation_name" id="attr_variation_name" value="" class="form-control m-input" placeholder="Attribute variation name" tabindex="3" required>
                         <span id="name" style="color:red;display:none">Name field is required</span>
                     </div>
 
                     <input type="hidden" value="" name="hiddenvalue" id="hiddenvalue">
-                    <br><br>
                     <div class="form-outline mb-4">
                         <label class="form-control-label"><span style="color:red">*</span> Status </label>
                         <div class="m-radio-inline">
@@ -111,17 +110,12 @@
 
 
 <?php echo view('footer'); ?>
-<script src="<?php echo base_url(); ?>/assets/js/catlog.js" type="text/javascript"></script>
+<script src="<?php echo base_url();?>/public/assets/js/catlog.js" type="text/javascript"></script>
 
 <script>
     $(document).ready(function() {
-        $('#customerlist').DataTable();
-        //Get the text using the value of select
-        var text = $("select[name=selValue] option[value='1']").text();
-        //We need to show the text inside the span that the plugin show
-        $('.bootstrap-select .filter-option').text(text);
-        //Check the selected attribute for the real select
-        $('select[name=selValue]').val(1);
+        $('#variationlist').DataTable();
+        
     });
     var BASE_URL = "<?php echo base_url() ?>";
 

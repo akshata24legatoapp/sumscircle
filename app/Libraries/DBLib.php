@@ -7,6 +7,17 @@ class DBLib{
 		$this->db = \Config\Database::connect();
 	}
 
+	public function getRow($sql){
+		$query = $this->db->query($sql);
+		$res= $query->getRowArray();
+		return $res;
+	}
+
+	public function getAllResult($sql){
+		$query = $this->db->query($sql);
+		$res= $query->getResultArray();
+		return $res;
+	}
 
 	public function getuser_rights($menu_id,$submenu_id){
  		$role_id = $_SESSION['role_id'];

@@ -20,7 +20,7 @@
             <div style="padding:10px">
                 <table class="table table-striped table-bordered" id="customerlist">
                     <thead>
-                        <th>Srno</th>
+                        <th>Sr. no</th>
                         <th>Master Attribute Name</th>
                         <th>Status</th>
                         <th style="text-align:center">Option</th>
@@ -89,7 +89,7 @@
         </div>
     </div>
 </div>
-<script src="<?php echo base_url(); ?>/assets/js/catlog.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/public/assets/js/catlog.js" type="text/javascript"></script>
 <script>
     function deleteRecord(id) {
         var delete_id = id
