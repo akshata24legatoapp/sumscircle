@@ -3,12 +3,14 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
+use App\Libraries\DBLib;
 
 class AdminModel extends Model{
       
    	public function __construct(){
 		parent::__construct();
 		$db = \Config\Database::connect();
+		$this->lib = new DBLib();
 	}
 
 	public function getAllMenu_list(){
@@ -197,14 +199,20 @@ class AdminModel extends Model{
 	}
 
 	public function getRoleById($role_id){
-		$query = $this->db->query("SELECT * FROM roles_t WHERE id = '$role_id'");
-		$res= $query->getRowArray();
+		//$query = $this->db->query("SELECT * FROM roles_t WHERE id = '$role_id'");
+		//$res= $query->getRowArray();
+
+		$query = "SELECT * FROM roles_t WHERE id = '$role_id'";
+		$res= $this->lib->getRow($query);
 		return $res;
 	}
 
 	public function getAllRoles(){
-		$query = $this->db->query("SELECT * FROM roles_t WHERE deleted_date IS NULL");
-		$res= $query->getResultArray();
+		//$query = $this->db->query("SELECT * FROM roles_t WHERE deleted_date IS NULL");
+		//$res= $query->getResultArray();
+		
+		$query = "SELECT * FROM roles_t WHERE deleted_date IS NULL";
+		$res= $this->lib->getAllResult($query);
 		return $res;
 	}
 

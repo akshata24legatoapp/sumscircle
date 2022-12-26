@@ -47,8 +47,6 @@
                                         <input type="text" name="cat_type" id="cat_type" value="<?php echo $Value['category_type'] ?>" class="form-control m-input" placeholder="Category Type " tabindex="3">
                                         <span id="name" style="color:red;display:none">Name field is required</span>
                                     </div>
-                                </div>
-                                <div class="form-group m-form__group row">
                                     <div class="col-lg-4 m-form__group-sub ">
                                         <label class="form-control-label"> Status </label>
                                         <div class="m-radio-inline">
@@ -63,6 +61,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             <?php } ?>
                         </div>
                         <div class="m-form__actions m-form__actions">
@@ -79,4 +78,4 @@
         </div>
     </div>
 </div>
-<script src="<?php echo base_url(); ?>/assets/js/catlog.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/public/assets/js/catlog.js" type="text/javascript"></script>

@@ -1,7 +1,7 @@
 <?php 
 namespace App\Controllers;
 
-header('Access-Control-Allow-Origin: *');
+//header('Access-Control-Allow-Origin: *');
 //defined('BASEPATH') or exit('No direct script access allowed');
 
 use App\Models\LoginModel;
