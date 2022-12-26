@@ -54,13 +54,12 @@
 </div>
 
 
-
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Add Attribute Variation</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Update Attribute Variation</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -69,7 +68,7 @@
                 <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="Attribute_vari_form" method="POST" action="attribute-variation-upload">
                     <div class="form-outline mb-4">
                         <label class="form-control-label"><span style="color:red">*</span>Master Attribute Name</label>
-                        <select name="drop_val" id="drop_val" class="form-control selectpicker" data-live-search="true">
+                        <select name="drop_val" id="drop_val" class="form-control m-bootstrap-select selectpicker" data-live-search="true">
                             <option value="">Select Values</option>
                             <?php foreach ($dropdone_master_val as $value) { ?>
                                 <option value="<?php echo $value['id'] ?>"> <?php echo $value['attributes_name'] ?>
@@ -82,7 +81,6 @@
                         <input type="text" name="attr_variation_name" id="attr_variation_name" value="" class="form-control m-input" placeholder="Master Attribute" tabindex="3" required>
                         <span id="name" style="color:red;display:none">Name field is required</span>
                     </div>
-
                     <input type="hidden" value="" name="hiddenvalue" id="hiddenvalue">
                     <br><br>
                     <div class="form-outline mb-4">
