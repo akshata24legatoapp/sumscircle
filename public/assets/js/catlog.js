@@ -71,6 +71,99 @@ $('#master_attr_sub_button').click(function () {
     return true;
 });
 
+let nameError = document.getElementById("name_error");
+let descrError = document.getElementById("description_error");
+let shortError = document.getElementById("short_error");
+let productError = document.getElementById("product_error");
+let imgError = document.getElementById("file_error");
+let attrError = document.getElementById("attr_error");
+let catError = document.getElementById("cat_error");
+
+function nameVal() {
+  let name = document.getElementById("product_name").value;
+
+  if (name.length == "") {
+    nameError.innerHTML = "Required";
+    return false;
+  } 
+  else {
+    nameError.innerHTML = "";
+    return true;
+  }
+}
+
+function descrVal() {
+  let descr = document.getElementById("description").value;
+
+  if (descr.length == "") {
+    descrError.innerHTML = "Required";
+    return false;
+  } else {
+    descrError.innerHTML = "";
+    return true;
+  }
+}
+
+function shortVal() {
+  let short = document.getElementById("shot_descr").value;
+
+  if (short.length == "") {
+    shortError.innerHTML = "Required";
+    return false;
+  } else {
+    shortError.innerHTML = "";
+    return true;
+  }
+}
+
+function productVal() {
+  let sku = document.getElementById("product_sku").value;
+
+  if (sku.length == "") {
+    productError.innerHTML = "Required";
+    return false;
+  } else {
+    productError.innerHTML = "";
+    return true;
+  }
+}
+
+function imgVal() {
+  let img = document.getElementById("multi_image").value;
+
+  if (img.length == "") {
+    imgError.innerHTML = "Please select images";
+    return false;
+  } else {
+    imgError.innerHTML = "";
+    return true;
+  }
+}
+
+function cat_val(){
+  select = document.getElementById('cat_id');
+if (select.value == "") {
+  catError.innerHTML = "Required";
+  return false;
+}
+return true;
+} 
+
+
+function validate() {
+  if (nameVal() && descrVal() && shortVal() && productVal() && imgVal() && cat_val()) {
+    $("#customerform").submit();
+    swal("Product added successfully");
+    return true;
+  } else {
+    
+    swal("Please fill all the fields");  
+    //topFunction();
+    return false;
+    
+  }
+}
+
 
 
 ////////////////////////////////////////////////////////////////////

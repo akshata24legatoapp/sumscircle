@@ -48,7 +48,7 @@
                                         name="role_id" id="role_id">
                                             <option value="" >Select Role</option>
                                             <?php foreach($roles as $val){ ?>
-                                            <option value="<?php echo $val['id']?>"> <?php echo $val['role_name']?>
+                                            <option value="<?php echo $val['id']?>"> <?php echo $val['role_name']?></option>
                                             <?php }?>
                                         </select>
                                         

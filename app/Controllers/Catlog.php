@@ -121,4 +121,93 @@ class Catlog extends BaseController
         return redirect()->route('attribute-variation-list');
     }
 
+    public function display_products()
+    {
+        $result = $this->model->display_products();
+        return view('Catlog/display_product', $result);
+    }
+
+    //display  products form
+    public function product()
+    {
+        $data['cat_data'] = $this->model->display_catlog_prdct();
+
+        // attribute variations
+        $data['attribute_data'] = $this->model->display_attribute_variation();
+
+        // attribute names
+        $data['attribute_name'] = $this->model->attribute_name();
+        return view('Catlog/add_product', $data);
+    }
+
+    //insert products 
+    public function add_products()
+    {
+
+        $data = $this->request->getPost();
+        $multi_img =   $this->request->getFileMultiple('image');
+        $result = $this->model->add_product($data, $multi_img);
+        $product_id = $result;
+        return redirect()->route("attribute", [$product_id]);
+    }
+
+    public function attribute($id)
+    {
+
+        $data['idpr'] =  $id;
+        $data['prdct_var'] = $this->model->getproduct_variation($id);
+        $data['attributes'] = $this->model->attribute_name();
+        return view('Catlog/attribute', $data);
+    }
+
+    public function update_attributes()
+    {
+        $data = $this->request->getPost();
+        $result = $this->model->update_attributes($data);
+        return redirect()->route('display_products');
+    }
+
+    public function edit_product($id)
+    {
+
+        $result['product_edit'] = $this->model->edit_product($id);
+        $result['product_attribute'] = $this->model->edit_product($id);
+        $result['product_var'] = $this->model->getproduct_variation($id);
+        $result['attribute_data'] = $this->model->edit_product($id);
+
+        // category dropdown
+        $result['cat_data'] = $this->model->display_catlog_prdct();
+        return view('Catlog/edit_products', $result);
+    }
+
+    public function delete_img()
+    {
+        $id = $this->request->getPost('id');
+        $result = $this->model->delete_img($id);
+        echo json_encode($result);
+    }
+
+    public function update_product()
+    {
+
+        $multis = $this->request->getFileMultiple('multi_image');
+        $data = $this->request->getPost();
+
+        if (isset($_POST)) {
+            $prid = $data['product_id'];
+
+            $result = $this->model->update_product($data, $multis);
+            return redirect()->route("attribute", [$prid]);
+            //return redirect()->route('display_products');
+        }
+    }
+
+    public function del_product()
+    {
+        $id = $this->request->getPost('delete_id');
+        $result = $this->model->delete_product($id);
+        return redirect()->route('display_products');
+    }
+
 }
+?>

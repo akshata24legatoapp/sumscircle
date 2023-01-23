@@ -27,10 +27,11 @@
                         <th style="text-align:center">Option</th>
                     </thead>
                     <tbody>
-                        <tr>
-                            <?php $i = 1;
+                        <?php $i = 1;
                             $SearchType = '';
                             foreach ($view_att_variation as $value) { ?>
+                        <tr>
+                            
                                 <td><?php echo $i; ?></td>
                                 <td> <?php echo $value['attributes_name'] ?> </td>
                                 <td><?php echo $value['attribute_variation_name'] ?></td>
@@ -69,10 +70,10 @@
                 <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="Attribute_vari_form" method="POST" action="attribute-variation-upload">
                     <div class="form-outline mb-4">
                         <label class="form-control-label"><span style="color:red">*</span>Master Attribute Name</label>
-                        <select name="drop_val" id="drop_val" class="form-control selectpicker" data-live-search="true">
+                        <select name="drop_val" id="drop_val" class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" tabindex="3">
                             <option value="">Select Values</option>
                             <?php foreach ($dropdone_master_val as $value) { ?>
-                                <option value="<?php echo $value['id'] ?>"> <?php echo $value['attributes_name'] ?>
+                                <option value="<?php echo $value['id'] ?>"> <?php echo $value['attributes_name'] ?></option>
                                 <?php } ?>
                         </select>
                     </div>
@@ -111,7 +112,7 @@
 
 
 <?php echo view('footer'); ?>
-<script src="<?php echo base_url(); ?>/assets/js/catlog.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/public/assets/js/catlog.js" type="text/javascript"></script>
 
 <script>
     $(document).ready(function() {

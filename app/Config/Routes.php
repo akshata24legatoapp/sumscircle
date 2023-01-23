@@ -57,7 +57,13 @@ $routes->post('/attribute-variation-update', 'Catlog::attr_variation_update');
 $routes->post('/attribute-variation-delete', 'Catlog::attr_variation_delete');
 $routes->post('/save_inventory', 'Inventory::save_inventory');
 
+$routes->post('add_products','Catlog::add_products'); 
+$routes->post('update_attribute','Catlog::update_attributes');
+$routes->post('update_product','Catlog::update_product');
+$routes->post('delete_att_img','Catlog::delete_img');
+$routes->post('/display_deleted','Catlog::del_product');
 
+//$routes->post('insert_attributes','Products::insert_attributes');
 
 $routes->group('',['filter' => 'auth'], function ($routes) {
 
@@ -82,8 +88,20 @@ $routes->group('',['filter' => 'auth'], function ($routes) {
     $routes->get('getProductsku', 'Inventory::getProductsku');
     $routes->get('edit_inventory/(:any)', 'Inventory::edit_inventory/$1');
 
+    $routes->get('display_products','Catlog::display_products');
+    $routes->get('product','Catlog::product');
+    $routes->get('edit_products/(:any)', 'Catlog::edit_product/$1');
+
+    //$routes->get('add_attributes','Products::add_attribute');
+    //$routes->get('attribute/(:num)','Products::attribute/$1');
+    //$route['(:num)'] = 'Products::attribute/$1';
+    $routes->get('attribute/(:any)', 'Catlog::attribute/$1',['as' => 'attribute']);
+
+
 
 });
+
+
 
 
 

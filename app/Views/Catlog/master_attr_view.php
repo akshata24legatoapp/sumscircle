@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div style="padding:10px">
-                <table class="table table-striped table-bordered" id="customerlist">
+                <table class="table table-striped table-bordered" id="master_att_list">
                     <thead>
                         <th>Srno</th>
                         <th>Master Attribute Name</th>
@@ -26,9 +26,10 @@
                         <th style="text-align:center">Option</th>
                     </thead>
                     <tbody>
-                        <tr>
-                            <?php $i = 1;
+                         <?php $i = 1;
                             foreach ($view_master_attr as $value) { ?>
+                        <tr>
+                           
                                 <td><?php echo $i; ?></td>
                                 <td><?php echo $value['attributes_name'] ?></td>
                                 <td <?php if ($value['attributes_status'] == '1') $valstatus = 'Active';
@@ -89,7 +90,7 @@
         </div>
     </div>
 </div>
-<script src="<?php echo base_url(); ?>/assets/js/catlog.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/public/assets/js/catlog.js" type="text/javascript"></script>
 <script>
     function deleteRecord(id) {
         var delete_id = id
@@ -124,7 +125,7 @@
     };
 
     $(document).ready(function() {
-        $('#customerlist').DataTable();
+        $('#master_att_list').DataTable();
     });
     var BASE_URL = "<?php echo base_url() ?>";
 
