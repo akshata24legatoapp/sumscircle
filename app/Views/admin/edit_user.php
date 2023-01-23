@@ -80,7 +80,7 @@ if(!empty($user_image)){
                                         name="role_id" id="role_id">
                                             <option value="" >Select Role</option>
                                             <?php foreach($roles as $val){ ?>
-                                            <option value="<?php echo $val['id']?>"<?php if(!empty($user_record) && ($role_id == $val['id'])){ echo 'selected';}else{ echo '';}?>> <?php echo $val['role_name']?>
+                                            <option value="<?php echo $val['id']?>" <?php if(!empty($user_record) && ($role_id == $val['id'])){ echo 'selected';}else{ echo '';}?>> <?php echo $val['role_name']?>
                                             <?php }?>
                                         </select>
                                         

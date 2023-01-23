@@ -11,7 +11,7 @@
                 <div class="m-portlet__head-tools">
                     <ul class="m-portlet__nav">
                         <li class="m-portlet__nav-item">
-                            <button type="button" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air getid" onclick="funClear()" id="add_att_vari" value=""><span><i class="fa fa-plus-circle"></i><span>Add Attribute variations</button>
+                            <button type="button" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air getid" id="add_att_vari" value=""><span><i class="fa fa-plus-circle"></i><span>Add Attribute variations</button>
                         </li>
                         <li class="m-portlet__nav-item"></li>
                     </ul>
@@ -28,10 +28,10 @@
                     </thead>
                     <tbody>
                         <?php $i = 1;
-                            $SearchType = '';
-                            foreach ($view_att_variation as $value) { ?>
-                        <tr>
-                            
+                        $SearchType = '';
+                        foreach ($view_att_variation as $value) { ?>
+                            <tr>
+
                                 <td><?php echo $i; ?></td>
                                 <td> <?php echo $value['attributes_name'] ?> </td>
                                 <td><?php echo $value['attribute_variation_name'] ?></td>
@@ -44,9 +44,9 @@
                                     <a href="#" onclick="deleteRecord(<?= $value['idsget'] ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
                                     </a>
                                 </td>
-                        </tr>
-                    <?php $i++;
-                            } ?>
+                            </tr>
+                        <?php $i++;
+                        } ?>
                     </tbody>
                 </table>
             </div>
@@ -67,11 +67,12 @@
             </div>
             <div class="modal-body p-4">
                 <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="Attribute_vari_form" method="POST" action="attribute-variation-upload">
-                    <div class="form-outline mb-4">
+                    <div class="form-outline mb-4 id_100">
                         <label class="form-control-label"><span style="color:red">*</span>Master Attribute Name</label>
-                        <select name="drop_val" id="drop_val" class="form-control m-bootstrap-select selectpicker" data-live-search="true">
-                            <option value="">Select Values</option>
-                            <?php foreach ($dropdone_master_val as $value) { ?>
+                        <select class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" tabindex="3" name="drop_val" id="drop_val">
+                            <option value="">Select Master Attribute</option>
+                            <?php
+                            foreach ($dropdone_master_val as $value) { ?>
                                 <option value="<?php echo $value['id'] ?>"> <?php echo $value['attributes_name'] ?>
                                 <?php } ?>
                         </select>
@@ -107,15 +108,13 @@
 
 
 
-<?php echo view('footer'); ?>
-<script src="<?php echo base_url();?>/public/assets/js/catlog.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/public/assets/js/catlog.js" type="text/javascript"></script>
+
 
 <script>
     $(document).ready(function() {
         $('#variationlist').DataTable();
-        
     });
-    var BASE_URL = "<?php echo base_url() ?>";
 
     function showmore(idsget) {
         var val_id = idsget
@@ -127,9 +126,9 @@
             },
             success: function(response) {
                 data = JSON.parse(response);
-                $("#drop_val").val(data[0]['master_attribute_id']);
+                // $("div.id_100 select").val(data[0]['master_attribute_id']);
+                $("div.id_100 select").val(data[0]['master_attribute_id']).change();
                 $("#attr_variation_name").val(data[0]['attribute_variation_name']);
-                // $("#Status").val(data[0]['attribute_variation_status']);
                 $("#hiddenvalue").val(val_id);
                 if ((data[0]['attribute_variation_status']) == '1') {
                     $('#Status1').attr('checked', true);
@@ -140,15 +139,15 @@
         });
     };
 
-    function funClear() {
-        document.getElementById("Attribute_vari_form").reset();
-        $('#Status1').attr('checked', false);
-        $('#Status0').attr('checked', false);
-    }
-
     $(function() {
         $('#add_att_vari').click(function() {
             $('#myModal').modal('show');
+            $("div.id_100 select").val('').change();
+            document.getElementById("Attribute_vari_form").reset();
+            $('#Status1').attr('checked', false);
+            $('#Status0').attr('checked', false);
+
+            // document.getElementById('drop_val').innerText = null;
         });
     });
 
@@ -184,3 +183,4 @@
         })
     };
 </script>
+<?php echo view('footer'); ?>

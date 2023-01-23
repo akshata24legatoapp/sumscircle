@@ -1,0 +1,40 @@
+CRITICAL - 2023-01-23 01:07:10 --> Undefined variable: dropval
+in APPPATH\Views\Catlog\attributes_variations.php on line 76.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dropval', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 76, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(101): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 01:07:23 --> Undefined variable: dropval
+in APPPATH\Views\Catlog\attributes_variations.php on line 76.
+ 1 APPPATH\Views\Catlog\attributes_variations.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dropval', 'APPPATH\\Views\\Catlog\\attributes_variations.php', 76, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\attributes_variations.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 5 APPPATH\Controllers\Catlog.php(101): view('Catlog/attributes_variations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 01:21:26 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\Catlog\attributes_variations.php on line 75.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 3 APPPATH\Controllers\Catlog.php(101): view('Catlog/attributes_variations', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 01:31:26 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\Catlog\attributes_variations.php on line 75.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/attributes_variations', [], true)
+ 3 APPPATH\Controllers\Catlog.php(101): view('Catlog/attributes_variations', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->attr_variation_list()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
