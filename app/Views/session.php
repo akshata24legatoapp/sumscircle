@@ -2,8 +2,9 @@
 	<div class="modal-dialog">
 	    <div class="modal-content">
 	        <div class="modal-header" style="padding: 12px;background: #eeeef5">
-	            <input type="hidden" id="base" value="http://localhost/sumscircle/public/">
-	                <h3 class="modal-title">Session Timeout Notification</h3>
+	            <!-- <input type="hidden" id="base" value="http://localhost/sumscircle/public/"> -->
+	            <input type="hidden" id="base" value="<?php echo base_url();?>login">
+	            <h3 class="modal-title">Session Timeout Notification</h3>
 	        </div>
 	        <div class="modal-body" style="padding: 17px;">
 	            <p>Your session is about to expire 

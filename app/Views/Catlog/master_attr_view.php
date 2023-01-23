@@ -20,7 +20,7 @@
             <div style="padding:10px">
                 <table class="table table-striped table-bordered" id="master_att_list">
                     <thead>
-                        <th>Srno</th>
+                        <th>Sr. no</th>
                         <th>Master Attribute Name</th>
                         <th>Status</th>
                         <th style="text-align:center">Option</th>
@@ -90,77 +90,6 @@
         </div>
     </div>
 </div>
+
 <script src="<?php echo base_url(); ?>/public/assets/js/catlog.js" type="text/javascript"></script>
-<script>
-    function deleteRecord(id) {
-        var delete_id = id
-        swal({
-            title: "Are you sure?",
-            text: "You Want To Delete Data!",
-            type: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Yes, delete it!",
-            cancelButtonText: 'No'
-        }).then(function(success) {
-            if (success.value) {
-                $.ajax({
-                    method: "POST",
-                    url: BASE_URL + '/master-attribute-delete',
-                    data: {
-                        "delete_id": delete_id
-                    },
-                    success: function(data) {
-                        swal("Master Attribute Delete!", {
-                            icon: "success",
-                        }).then(function(success) {
-                            if (success) {
-                                window.location.href = BASE_URL + '/master-attribute-view';
-                            }
-                        });
-                    }
-                });
-            }
-        })
-    };
-
-    $(document).ready(function() {
-        $('#master_att_list').DataTable();
-    });
-    var BASE_URL = "<?php echo base_url() ?>";
-
-    function showmore(id) {
-        var val_id = id
-        $.ajax({
-            method: "POST",
-            url: BASE_URL + '/master-attribute-update',
-            data: {
-                "val_id": val_id
-            },
-            success: function(response) {
-                data = JSON.parse(response);
-                $("#master_attr_name").val(data[0]['attributes_name']);
-                // $("#Status").val(data[0]['attributes_status']);
-                $("#hiddenvalue").val(data[0]['id']);
-                console.log(data[0]['attributes_status']);
-                if ((data[0]['attributes_status']) == '1') {
-                    $('#Status1').attr('checked', true);
-                } else {
-                    $('#Status0').attr('checked', true);
-                }
-
-            }
-        });
-    };
-
-    function funClear() {
-        document.getElementById("MasterForm").reset();
-        $('#Status1').attr('checked', false);
-        $('#Status0').attr('checked', false);
-    }
-    $(function() {
-        $('#add_att').click(function() {
-            $('#myModal').modal('show');
-        });
-    });
-</script>
+<?php echo view('footer'); ?>

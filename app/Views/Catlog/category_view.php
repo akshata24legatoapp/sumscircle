@@ -54,40 +54,4 @@
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function() {
-        $('#customerlist').DataTable();
-    });
-    function deleteRecord(id) {
-        var delete_id = id
-        swal({
-            title: "Are you sure?",
-            text: "You Want To Delete Data!",
-            type: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Yes, delete it!",
-            cancelButtonText: 'No'
-        }).then(function(success) {
-            if (success.value) {
-                $.ajax({
-                    method: "POST",
-                    url: BASE_URL + '/category-delete',
-                    data: {
-                        "delete_id": delete_id
-                    },
-                    success: function(data) {
-                        swal("Categories Data Delete!", {
-                            icon: "success",
-                        }).then(function(success) {
-                            if (success) {
-                                window.location.href = BASE_URL + '/view-category';
-                            }
-                        });
-                    }
-                });
-            }
-        })
-    };
-
-</script>
+<script src="<?php echo base_url(); ?>/public/assets/js/catlog.js" type="text/javascript"></script>
