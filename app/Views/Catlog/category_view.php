@@ -26,23 +26,23 @@
                         <th>Option</th>
                     </thead>
                     <tbody>
-                        <tr>
-                            <?php
+                        <?php
                             $i = 1;
                             foreach ($category_view as $Value) {
                             ?>
-                                <td><?php echo $i ?></td>
-                                <td><?php echo $Value['category_name']?></td>
-                                <td><?php echo $Value['category_type']?></td>
-                                <td <?php if ($Value['category_status'] == '1') $valstatus = 'Active'; else $valstatus = 'inactive';  ?>><?php echo $valstatus ?></td>
-                                <td style="text-align:center">
-                                    <a href="update-category/<?php echo $Value['id'] ?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
-                                    </a>
-                                    &nbsp;&nbsp;
-                                    <a href="#" onclick="deleteRecord(<?= $Value['id'] ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
-                                    </a>
+                        <tr>
+                            <td><?php echo $i ?></td>
+                            <td><?php echo $Value['category_name']?></td>
+                            <td><?php echo $Value['category_type']?></td>
+                            <td <?php if ($Value['category_status'] == '1') $valstatus = 'Active'; else $valstatus = 'inactive';  ?>><?php echo $valstatus ?></td>
+                            <td style="text-align:center">
+                                <a href="update-category/<?php echo $Value['id'] ?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                </a>
+                                &nbsp;&nbsp;
+                                <a href="#" onclick="deleteRecord(<?= $Value['id'] ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
+                                </a>
                                     
-                                </td>
+                            </td>
                         </tr>
                     <?php
                     $i++;

@@ -9,7 +9,7 @@ var UIIdleTimeout = function() {
                 keepAliveURL: "/keep-alive",
                 serverResponseEquals: "OK",
                 onTimeout: function() {
-                    window.location.href = $('#base').val()+"login/logout"
+                    window.location.href = $('#base').val()+"/login"
                 },
                 onIdle: function() {
                     $("#idle-timeout-dialog").modal("show"), o = $("#idle-timeout-counter"), $("#idle-timeout-dialog-keepalive").on("click", function() {
@@ -32,7 +32,7 @@ jQuery(document).ready(function() {
      jQuery(document).idleTimeout({
           idleTimeLimit: 60*60,       // 'No activity' time limit in seconds. 1200 = 20 Minutes
          // redirectUrl: arr[0] + "//" + arr[2] +'/courier/admin/login/logout',    // redirect to this url on timeout logout. Set to "redirectUrl: false" to disable redirect
-         redirectUrl : $('#base').val()+"login/logout",
+         redirectUrl : $('#base').val()+"/login",
           // optional custom callback to perform before logout
           customCallback: false,     // set to false for no customCallback
           // customCallback:    function () {    // define optional custom js function
