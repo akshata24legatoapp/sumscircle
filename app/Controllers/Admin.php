@@ -16,18 +16,22 @@ class Admin extends BaseController
 
     public function index(){
         $data['title'] = 'Roles list';
+        $data['user_right'] = $this->lib->getuser_rights(1,2);
         $data['roles_record'] = $this->admin_model->getAllRoles();
         return view('admin/role_list',$data);
     }
 
     public function add_role(){
         $data['user_right'] = $this->lib->getuser_rights(1,1);
+        $data['user_list_view_right'] = $this->lib->getuser_rights(1,2);
         $data['menus'] = $this->admin_model->getAllMenu_list();
         return view('admin/add_role',$data);
     }
 
     public function edit_role($role_id = ''){
         $data['role_id'] = $role_id;
+        $data['user_right'] = $this->lib->getuser_rights(1,1);
+        $data['user_list_view_right'] = $this->lib->getuser_rights(1,2);
         $data['menus'] = $this->admin_model->getAllMenuByRoleId($role_id);
         $data['role_data'] = $this->admin_model->getRoleById($role_id);
         return view('admin/edit_role',$data);
@@ -47,16 +51,21 @@ class Admin extends BaseController
     }
     
     public function user_list(){
+        $data['user_right'] = $this->lib->getuser_rights(1,4);
         $data['users'] = $this->admin_model->getAllUser_list();
         return view('admin/user_list',$data);
     }
 
     public function add_users(){
+        $data['user_right'] = $this->lib->getuser_rights(1,3);
+        $data['user_list_view_right'] = $this->lib->getuser_rights(1,4);
         $data['roles'] = $this->admin_model->getRoles();
         return view('admin/add_user',$data);
     }
 
     public function edit_user($id=''){
+        $data['user_right'] = $this->lib->getuser_rights(1,3);
+        $data['user_list_view_right'] = $this->lib->getuser_rights(1,4);
         $data['user_id'] = $id;
         $data['user_record'] = $this->admin_model->getUserById($id);
         $data['roles'] = $this->admin_model->getRoles();

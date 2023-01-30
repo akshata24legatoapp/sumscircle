@@ -92,11 +92,12 @@
                         <div class="m-portlet__head-tools">
                             <ul class="m-portlet__nav">
                                 <li class="m-portlet__nav-item">
-
-                                    <a href="display_products" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
+                                    <?php if(isset($user_list_view_right)){
+                                            if($user_list_view_right['view_right'] == '1'){ ?>
+                                        <a href="display_products" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
                                         <span><i class="fa fa-list-ul"></i><span>View Product list</span></span>
-                                    </a>
-
+                                        </a>
+                                    <?php } } ?>
                                 </li>
                                 <li class="m-portlet__nav-item"></li>
                             </ul>
@@ -216,9 +217,14 @@
                                 <div class="m-form__actions m-form__actions">
                                     <!-- Next and cancel button  -->
                                     <div class="col-lg-12" style="text-align:center">
-
-                                        <button id="next_button" type="submit"  class="btn btn-primary">Next</button>
-                                        <a href="<?php echo base_url() ?>/display_products" id="cancel" class="btn btn-danger">Cancel</a>
+                                        <?php if(isset($user_right)){
+                                            if($user_right['add_right'] == '1'){ ?>
+                                            <button id="next_button" type="submit"  class="btn btn-primary">Next</button>
+                                        <?php } }?>
+                                        <?php if(isset($user_list_view_right)){
+                                            if($user_list_view_right['view_right'] == '1'){ ?>
+                                            <a href="<?php echo base_url() ?>/display_products" id="cancel" class="btn btn-danger">Cancel</a>
+                                         <?php } }?>
                                     </div>
                                 </div>
                             </div>

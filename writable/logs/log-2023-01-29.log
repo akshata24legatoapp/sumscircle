@@ -1,0 +1,11 @@
+CRITICAL - 2023-01-29 23:35:42 --> Undefined array key "id"
+in APPPATH\Views\Catlog\display_product.php on line 50.
+ 1 APPPATH\Views\Catlog\display_product.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Catlog\\display_product.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catlog\\display_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/display_product', [], true)
+ 5 APPPATH\Controllers\Catlog.php(136): view('Catlog/display_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->display_products()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

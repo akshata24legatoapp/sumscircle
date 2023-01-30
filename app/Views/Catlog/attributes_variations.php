@@ -11,7 +11,10 @@
                 <div class="m-portlet__head-tools">
                     <ul class="m-portlet__nav">
                         <li class="m-portlet__nav-item">
-                            <button type="button" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air getid" id="add_att_vari" value=""><span><i class="fa fa-plus-circle"></i><span>Add Attribute variations</button>
+                            <?php if(isset($user_right)){
+                                if($user_right['add_right'] == '1'){ ?>
+                                <button type="button" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air getid" id="add_att_vari" value=""><span><i class="fa fa-plus-circle"></i><span>Add Attribute variations</button>
+                            <?php } } ?>
                         </li>
                         <li class="m-portlet__nav-item"></li>
                     </ul>
@@ -38,11 +41,18 @@
                                 <td <?php if ($value['attribute_variation_status'] == '1') $valstatus = 'Active';
                                     else $valstatus = 'inactive';  ?>><?php echo $valstatus; ?></td>
                                 <td style="text-align:center">
-                                    <a href="#" id='getidvalu' data-toggle="modal" onclick="showmore(<?= $value['idsget'] ?>)" data-target="#myModal"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
-                                    </a>
+                                    <?php 
+                                    if(isset($user_right)){
+                                        if($user_right['edit_right'] == '1'){ ?>
+                                        <a href="#" id='getidvalu' data-toggle="modal" onclick="showmore(<?= $value['idsget'] ?>)" data-target="#myModal"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                        </a>
+                                    <?php } ?>
                                     &nbsp;&nbsp;
-                                    <a href="#" onclick="deleteRecord(<?= $value['idsget'] ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
-                                    </a>
+                                    <?php if($user_right['delete_right'] == '1'){ ?>
+                                        <a href="#" onclick="deleteRecord(<?= $value['idsget'] ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
+                                        </a>
+                                    <?php } }?>
+
                                 </td>
                             </tr>
                         <?php $i++;
@@ -70,11 +80,6 @@
                     <div class="form-outline mb-4 id_100">
                         <label class="form-control-label"><span style="color:red">*</span>Master Attribute Name</label>
 
-                        <!-- select name="drop_val" id="drop_val" class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" tabindex="3">
-                            <option value="">Select Values</option>
-                            <?php foreach ($dropdone_master_val as $value) { ?>
-                                <option value="<?php echo $value['id'] ?>"> <?php echo $value['attributes_name'] ?></option>
-<?php } ?> -->
                         <select class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" tabindex="3" name="drop_val" id="drop_val">
                             <option value="">Select Master Attribute</option>
                             <?php

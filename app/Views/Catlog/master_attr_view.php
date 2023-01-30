@@ -10,8 +10,12 @@
                 <div class="m-portlet__head-tools">
                     <ul class="m-portlet__nav">
                         <li class="m-portlet__nav-item">
+                            <?php 
+                            if(isset($user_right)){
+                                if($user_right['add_right'] == '1'){ ?>
                             <button type="button" onclick="funClear()" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air getid" id="add_att" value=""><span><i class="fa fa-plus-circle"></i><span>Add Master Attribute</button>
                             <!-- <a href="" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air" id="sendmail"><span><i class="fa fa-plus-circle"></i><span>Add Master Attribute</span></span></a> -->
+                            <?php } }?>
                         </li>
                         <li class="m-portlet__nav-item"></li>
                     </ul>
@@ -35,11 +39,17 @@
                                 <td <?php if ($value['attributes_status'] == '1') $valstatus = 'Active';
                                     else $valstatus = 'inactive';  ?>><?php echo $valstatus ?></td>
                                 <td style="text-align:center">
-                                    <a href="#" id='getidvalu' data-toggle="modal" onclick="showmore(<?= $value['id'] ?>)" data-target="#myModal"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
-                                    </a>
+                                    <?php 
+                                    if(isset($user_right)){
+                                        if($user_right['edit_right'] == '1'){ ?>
+                                        <a href="#" id='getidvalu' data-toggle="modal" onclick="showmore(<?= $value['id'] ?>)" data-target="#myModal"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                        </a>
+                                    <?php } ?>
                                     &nbsp;&nbsp;
-                                    <a href="#" onclick="deleteRecord(<?= $value['id'] ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
-                                    </a>
+                                    <?php if($user_right['delete_right'] == '1'){ ?>
+                                        <a href="#" onclick="deleteRecord(<?= $value['id'] ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
+                                        </a>
+                                    <?php } }?>
                                 </td>
                         </tr>
                     <?php $i++;

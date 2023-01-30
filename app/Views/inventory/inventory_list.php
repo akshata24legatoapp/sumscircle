@@ -13,7 +13,10 @@
                 	
                     <ul class="m-portlet__nav">
                         <li class="m-portlet__nav-item">
-                            <a href="add_inventory" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air"><span><i class="fa fa-plus-circle"></i><span>Add Inventory</span></span></a>
+                            <?php if(isset($user_right)){
+                            if($user_right['add_right'] == '1'){ ?>
+                                <a href="add_inventory" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air"><span><i class="fa fa-plus-circle"></i><span>Add Inventory</span></span></a>
+                        <?php } } ?>
                         </li>
                         <li class="m-portlet__nav-item"></li>
                     </ul>
@@ -46,9 +49,11 @@
                         	<td><?php echo $quantity;?></td>
                             <td><?php echo $status;?></td>
                             <td style="text-align:center">
-                               <a href="<?php echo base_url()?>/edit_inventory/<?php echo $val['id'];?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
-                                </a>
-                                
+                            <?php if(isset($user_right)){
+                                if($user_right['edit_right'] == '1'){ ?>
+                                    <a href="<?php echo base_url()?>/edit_inventory/<?php echo $val['id'];?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                    </a>
+                            <?php } } ?>  
                                 &nbsp;&nbsp;
                                 
                             </td> 

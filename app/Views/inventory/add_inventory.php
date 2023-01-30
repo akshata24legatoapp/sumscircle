@@ -14,11 +14,12 @@
                         <div class="m-portlet__head-tools">
                             <ul class="m-portlet__nav">
                                 <li class="m-portlet__nav-item">
-                                   
+                                    <?php if(isset($user_right)){
+                                    if($user_right['view_right'] == '1'){ ?>
                                 	<a href="inventory" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
                                 		<span><i class="fa fa-list-ul"></i><span>View Inventory List</span></span>
                                 	</a>
-                                    
+                                    <?php } } ?>
                                 </li>
                                 <li class="m-portlet__nav-item"></li>
                             </ul>
@@ -88,10 +89,14 @@
                              <div class="m-form__actions m-form__actions">
                                 <div class="row">
                                     <div class="col-lg-12" style="text-align:center">
-                                       
+                                       <?php if(isset($user_right)){
+                                            if($user_right['add_right'] == '1'){ ?>
                                         <button type="button" class="btn btn-primary" onclick="validateInventory_form()">Save</button>
                                       
-                                        <a href="inventory" class="btn btn-danger">Cancel</a>
+                                        <?php }
+                                            if($user_right['view_right'] == '1'){ ?>
+                                                <a href="inventory" class="btn btn-danger">Cancel</a>
+                                        <?php } } ?>
                                     </div>
                                 </div>
                             </div>

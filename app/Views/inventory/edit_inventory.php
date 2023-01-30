@@ -35,11 +35,12 @@ if(!empty($inventory_data)){
                         <div class="m-portlet__head-tools">
                             <ul class="m-portlet__nav">
                                 <li class="m-portlet__nav-item">
-                                   
-                                	<a href="<?php echo base_url()?>/inventory" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
-                                		<span><i class="fa fa-list-ul"></i><span>View Inventory List</span></span>
-                                	</a>
-                                    
+                                    <?php if(isset($user_right)){
+                                        if($user_right['view_right'] == '1'){ ?>
+                                    	<a href="<?php echo base_url()?>/inventory" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
+                                    		<span><i class="fa fa-list-ul"></i><span>View Inventory List</span></span>
+                                    	</a>
+                                    <?php } } ?>
                                 </li>
                                 <li class="m-portlet__nav-item"></li>
                             </ul>
@@ -110,9 +111,16 @@ if(!empty($inventory_data)){
                                 <div class="row">
                                     <div class="col-lg-12" style="text-align:center">
                                        
-                                        <button type="button" class="btn btn-primary" onclick="validateInventory_form()">Save</button>
+                                        <?php if(isset($user_right)){
+                                            if($user_right['edit_right'] == '1'){ ?>
+                                            <button type="button" class="btn btn-primary" onclick="validateInventory_form()">Save</button>
                                       
-                                        <a href="<?php echo base_url()?>/inventory" class="btn btn-danger">Cancel</a>
+                                        <?php }
+                                            if($user_right['view_right'] == '1'){ ?>
+                                                <a href="<?php echo base_url()?>/inventory" class="btn btn-danger">Cancel</a>
+                                        <?php } } ?>
+
+
                                     </div>
                                 </div>
                             </div>

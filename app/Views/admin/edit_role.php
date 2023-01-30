@@ -29,11 +29,12 @@
                         <div class="m-portlet__head-tools">
                             <ul class="m-portlet__nav">
                                 <li class="m-portlet__nav-item">
-                                   
+                                   <?php if(isset($user_list_view_right)){ 
+                                    if($user_list_view_right['view_right'] == '1') { ?>
                                 	<a href="<?php echo base_url()?>/roles" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
                                 		<span><i class="fa fa-list-ul"></i><span>View Role List</span></span>
                                 	</a>
-                                    
+                                    <?php } } ?>
                                 </li>
                                 <li class="m-portlet__nav-item"></li>
                             </ul>
@@ -146,10 +147,14 @@
                             <div class="m-form__actions m-form__actions">
                                 <div class="row">
                                     <div class="col-lg-12" style="text-align:center">
-                                       
-                                        <button type="button" class="btn btn-primary" onclick="validateroleform()">Save</button>
-                                      
-                                        <a href="<?php echo base_url()?>/roles" class="btn btn-danger">Cancel</a>
+                                        <?php if(isset($user_right)) {
+                                            if($user_right['edit_right'] == '1') { ?>
+                                            <button type="button" class="btn btn-primary" onclick="validateroleform()">Save</button>
+                                        <?php } } ?>
+                                        <?php if(isset($user_list_view_right)) {
+                                            if($user_list_view_right['view_right'] == '1') { ?>
+                                            <a href="<?php echo base_url()?>/roles" class="btn btn-danger">Cancel</a>
+                                        <?php } } ?>
                                     </div>
                                 </div>
                             </div>

@@ -49,17 +49,18 @@ if(!empty($user_image)){
                     <div class="m-portlet__head">
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
-                                <h3 class="m-portlet__head-text" style="font-size:21px">Add New User</h3>
+                                <h3 class="m-portlet__head-text" style="font-size:21px">Update User</h3>
                             </div>
                         </div>
                         <div class="m-portlet__head-tools">
                             <ul class="m-portlet__nav">
                                 <li class="m-portlet__nav-item">
-                                   
-                                	<a href="<?php echo base_url()?>/user_list" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
-                                		<span><i class="fa fa-list-ul"></i><span>View User</span></span>
-                                	</a>
-                                    
+                                    <?php if(isset($user_right)){ 
+                                        if($user_right['view_right'] == '1') { ?>
+                                    	<a href="<?php echo base_url()?>/user_list" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
+                                    		<span><i class="fa fa-list-ul"></i><span>View User</span></span>
+                                    	</a>
+                                    <?php } } ?>
                                 </li>
                                 <li class="m-portlet__nav-item"></li>
                             </ul>
@@ -137,10 +138,14 @@ if(!empty($user_image)){
                             <div class="m-form__actions m-form__actions">
                                 <div class="row">
                                     <div class="col-lg-12" style="text-align:center">
-                                       
-                                        <button type="button" class="btn btn-primary" onclick="validateUser_form()">Save</button>
-                                      
-                                        <a href="<?php echo base_url()?>/user_list" class="btn btn-danger">Cancel</a>
+                                        <?php if(isset($user_right)){ 
+                                            if($user_right['edit_right'] == '1') { ?>
+                                            <button type="button" class="btn btn-primary" onclick="validateUser_form()">Save</button>
+                                        <?php } } ?>
+                                        <?php if(isset($user_right)){ 
+                                            if($user_right['view_right'] == '1') { ?>
+                                            <a href="<?php echo base_url()?>/user_list" class="btn btn-danger">Cancel</a>
+                                        <?php } } ?>
                                     </div>
                                 </div>
                             </div>

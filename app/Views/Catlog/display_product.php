@@ -21,7 +21,11 @@ echo view('header');
 
                     <ul class="m-portlet__nav">
                         <li class="m-portlet__nav-item">
-                            <a href='product' class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air"><span><i class="fa fa-plus-circle"></i><span>Add Product</span></span></a>
+                            <?php 
+                            if(isset($user_list_view_right)){
+                                if($user_list_view_right['add_right'] == '1'){ ?>
+                                <a href='product' class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air"><span><i class="fa fa-plus-circle"></i><span>Add Product</span></span></a>
+                            <?php } }?>
                         </li>
                         <li class="m-portlet__nav-item"></li>
                     </ul>
@@ -60,14 +64,17 @@ echo view('header');
                                    // $count++;
                                     ?></td>
                                 <td style="text-align:center">
-                                    <a href="<?php echo base_url(); ?>/edit_products/<?php echo $prdct['id']; ?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
-                                    </a>
-
+                                    <?php 
+                                    if(isset($user_list_view_right)){
+                                        if($user_list_view_right['edit_right'] == '1'){ ?>
+                                            <a href="<?php echo base_url(); ?>/edit_products/<?php echo $prdct['id']; ?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                            </a>
+                                        <?php }?>
                                     &nbsp;&nbsp;
-
-                                    <a href="#" onclick="deleteRecord(<?php echo $prdct['id']; ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
-                                    </a>
-                                    &nbsp;&nbsp;
+                                    <?php if($user_list_view_right['delete_right'] == '1'){ ?>
+                                        <a href="#" onclick="deleteRecord(<?php echo $prdct['id']; ?>)"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
+                                        </a>
+                                    <?php } } ?>
                                 </td>
                             </tr>
                         <?php

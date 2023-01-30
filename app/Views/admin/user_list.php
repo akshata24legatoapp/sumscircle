@@ -13,14 +13,15 @@
                     </div>
                 </div>
                 <div class="m-portlet__head-tools">
-                	
+                	<?php if(isset($user_right)){  
+                        if($user_right['add_right'] == '1') { ?>
                     <ul class="m-portlet__nav">
                         <li class="m-portlet__nav-item">
                             <a href="<?php echo base_url()?>/add_user" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air"><span><i class="fa fa-plus-circle"></i><span>Add User</span></span></a>
                         </li>
                         <li class="m-portlet__nav-item"></li>
                     </ul>
-                   
+                   <?php } } ?>
                 </div>
             </div>
             <div style="padding:10px">
@@ -49,20 +50,22 @@
                             <td><?php echo $val['user_mobile'];?></td>
                             <td><?php echo $status;?></td>
                             <td style="text-align:center">
-                               <a href="<?php echo base_url()?>/edit_user/<?php echo $val['id']?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
-                                </a>
-                                
+                                <?php if(isset($user_right)){  
+                                    if($user_right['edit_right'] == '1') { ?>
+                                    <a href="<?php echo base_url()?>/edit_user/<?php echo $val['id']?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                    </a>
+                                <?php } ?>
                                 &nbsp;&nbsp;
-                                
-                                <a href="#" onclick="deleteUser('<?php echo $val['id'];?>')"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
-                                </a>
-                              
+                                <?php if($user_right['delete_right'] == '1') { ?>
+                                    <a href="#" onclick="deleteUser('<?php echo $val['id'];?>')"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
+                                    </a>
+                                <?php } ?>
                                 &nbsp;&nbsp;
-                               
-                                <a href="<?php echo base_url()?>/view_user_rights/<?php echo $val['id']?>">
-                                    <i class="fa fa-key" aria-hidden="true" style="color:#628239" title="access Rights"></i>
-                                </a>
-                              
+                                <?php if($user_right['edit_right'] == '1') { ?>
+                                    <a href="<?php echo base_url()?>/view_user_rights/<?php echo $val['id']?>">
+                                        <i class="fa fa-key" aria-hidden="true" style="color:#628239" title="access Rights"></i>
+                                    </a>
+                                <?php } } ?>
                             </td> 
                         </tr> 
                         <?php } ?>

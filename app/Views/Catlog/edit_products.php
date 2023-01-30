@@ -131,11 +131,12 @@ foreach ($product_var as $val) {
                         <div class="m-portlet__head-tools">
                             <ul class="m-portlet__nav">
                                 <li class="m-portlet__nav-item">
-
+                                    <?php if(isset($user_list_view_right)){ 
+                                        if($user_list_view_right['view_right'] == '1'){ ?>
                                     <a href="<?php echo base_url() ?>/display_products" class="btn btn-primary m-btn m-btn--pill m-btn--custom m-btn--icon m-btn--air">
                                         <span><i class="fa fa-list-ul"></i><span>View Product list</span></span>
                                     </a>
-
+                                    <?php } } ?>
                                 </li>
                                 <li class="m-portlet__nav-item"></li>
                             </ul>
@@ -278,8 +279,14 @@ foreach ($product_var as $val) {
                                     <div class="col-lg-8" style="text-align:center">
 
                                         <!-- <input type="button" class="btn btn-primary" value="Update" onclick="validate()"> -->
-                                        <button type="submit" class="btn btn-primary" >Next</button>
-                                        <a href="<?php echo base_url() ?>/display_products" class="btn btn-danger">Cancel</a>
+                                        <?php if(isset($user_right)){ 
+                                            if($user_right['edit_right'] == '1'){ ?>
+                                            <button type="submit" class="btn btn-primary" >Next</button>
+                                        <?php } } ?>
+                                        <?php if(isset($user_list_view_right)){ 
+                                            if($user_list_view_right['view_right'] == '1'){ ?>
+                                            <a href="<?php echo base_url() ?>/display_products" class="btn btn-danger">Cancel</a>
+                                        <?php } } ?>
                                     </div>
                                 </div>
                             </div>

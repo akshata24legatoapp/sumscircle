@@ -1,0 +1,54 @@
+CRITICAL - 2023-01-30 00:29:46 --> Unmatched '}'
+in APPPATH\Views\Catlog\add_product.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/add_product', [], true)
+ 3 APPPATH\Controllers\Catlog.php(152): view('Catlog/add_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->product()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:30:50 --> Unmatched '}'
+in APPPATH\Views\Catlog\add_product.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/add_product', [], true)
+ 3 APPPATH\Controllers\Catlog.php(152): view('Catlog/add_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->product()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:30:52 --> Unmatched '}'
+in APPPATH\Views\Catlog\add_product.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/add_product', [], true)
+ 3 APPPATH\Controllers\Catlog.php(152): view('Catlog/add_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->product()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:30:53 --> Unmatched '}'
+in APPPATH\Views\Catlog\add_product.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/add_product', [], true)
+ 3 APPPATH\Controllers\Catlog.php(152): view('Catlog/add_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->product()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:31:03 --> Unmatched '}'
+in APPPATH\Views\Catlog\add_product.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/add_product', [], true)
+ 3 APPPATH\Controllers\Catlog.php(152): view('Catlog/add_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->product()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:32:12 --> Unmatched '}'
+in APPPATH\Views\Catlog\add_product.php on line 226.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Catlog/add_product', [], true)
+ 3 APPPATH\Controllers\Catlog.php(152): view('Catlog/add_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Catlog->product()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catlog))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

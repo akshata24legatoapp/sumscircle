@@ -254,8 +254,8 @@ class Catlog_model extends Model
     {
         $query = $this->db->query("SELECT * FROM product_t WHERE deleted_date IS NULL");
         $res = $query->getResultArray();
-        $data['product'] = $res;
-        return $data;
+        //$data['product'] = $res;
+        return $res;
     }
 
     //  catlog function

@@ -9,6 +9,8 @@
                         <h3 class="m-portlet__head-text">Role List</h3>
                     </div>
                 </div>
+                <?php if(isset($user_right)){  
+                    if($user_right['add_right'] == '1') { ?>
                 <div class="m-portlet__head-tools">
                 	
                     <ul class="m-portlet__nav">
@@ -19,6 +21,7 @@
                     </ul>
                    
                 </div>
+                <?php } } ?>
             </div>
             <div style="padding:10px">
                 <table class="table table-striped table-bordered" id="rolelist">
@@ -42,13 +45,17 @@
                         	<td><?php echo $val['role_name']?></td>
                         	<td><?php echo $status;?></td>
                             <td style="text-align:center">
-                               <a href="<?= base_url();?>/edit_role/<?php echo $val['id'];?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
-                                </a>
-                                
+                                <?php if(isset($user_right)){  
+                                    if($user_right['edit_right'] == '1') { ?>
+                                    <a href="<?= base_url();?>/edit_role/<?php echo $val['id'];?>"><i class="fa fa-pencil-alt" aria-hidden="true" style="color:yellowgreen"></i>
+                                    </a>
+                                <?php } } ?>
                                 &nbsp;&nbsp;
-                                
-                                <a href="#" onclick="deleteRole('<?php echo $val['id'];?>')"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
-                                </a>  
+                                <?php if(isset($user_right)){  
+                                    if($user_right['delete_right'] == '1') { ?>
+                                    <a href="#" onclick="deleteRole('<?php echo $val['id'];?>')"><i class="fa fa-trash" aria-hidden="true" style="color:red"></i>
+                                    </a>  
+                                <?php } } ?>
                             </td> 
                         </tr>
                         <?php } ?>

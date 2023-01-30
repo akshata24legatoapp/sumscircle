@@ -3,6 +3,7 @@
 namespace App\Controllers;
 use CodeIgniter\Model;
 use App\Models\Catlog_model;
+use App\Libraries\DBLib;
 //use App\Models\LoginModel;
 
 class Catlog extends BaseController
@@ -10,26 +11,32 @@ class Catlog extends BaseController
     public function __construct(){
         // $db = \Config\Database::connect();
         $this->model = new Catlog_model();
+        $this->lib = new DBLib();
     }
 
   
     public function category_view()
     {
+        $data['user_right'] = $this->lib->getuser_rights(2,5);
         $data['category_view'] = $this->model->category_view();
         echo view('header');
-        return view('Catlog/category_view.php',$data);
+        return view('Catlog/category_view',$data);
         echo view('footer');
     }
 
     public function category_add()
     {
+        $data['user_right'] = $this->lib->getuser_rights(2,9);
+        $data['user_list_view_right'] = $this->lib->getuser_rights(2,5);
         echo view('header');
-        return view('Catlog/category_add');
+        return view('Catlog/category_add',$data);
         echo view('footer');
     }
  
     public function category_update($id)
     {
+        $data['user_right'] = $this->lib->getuser_rights(2,9);
+        $data['user_list_view_right'] = $this->lib->getuser_rights(2,5);
         $data['category_view'] = $this->model->category_view($id);
         echo view('header');
         return view('Catlog/category_edit',$data);
@@ -60,6 +67,7 @@ class Catlog extends BaseController
 // master attribute controller
     public function master_attr_view()
     {
+        $data['user_right'] = $this->lib->getuser_rights(2,7);
         // $data = $this->model->view_master_attr();
         $data['view_master_attr'] = $this->model->view_master_attr();
         echo view('header');
@@ -93,6 +101,7 @@ class Catlog extends BaseController
     // attributes variations function
     public function attr_variation_list()
     {
+        $data['user_right'] = $this->lib->getuser_rights(2,6);
         $data['dropdone_master_val'] = $this->model->dropdone_master_val();
         $data['view_att_variation'] = $this->model->view_att_variation();
      
@@ -123,13 +132,16 @@ class Catlog extends BaseController
 
     public function display_products()
     {
-        $result = $this->model->display_products();
+        $result['user_list_view_right'] = $this->lib->getuser_rights(2,11);
+        $result['product'] = $this->model->display_products();
         return view('Catlog/display_product', $result);
     }
 
     //display  products form
     public function product()
     {
+        $data['user_right'] = $this->lib->getuser_rights(2,8);
+        $data['user_list_view_right'] = $this->lib->getuser_rights(2,11);
         $data['cat_data'] = $this->model->display_catlog_prdct();
 
         // attribute variations
@@ -169,7 +181,8 @@ class Catlog extends BaseController
 
     public function edit_product($id)
     {
-
+        $result['user_right'] = $this->lib->getuser_rights(2,8);
+        $result['user_list_view_right'] = $this->lib->getuser_rights(2,11);
         $result['product_edit'] = $this->model->edit_product($id);
         $result['product_attribute'] = $this->model->edit_product($id);
         $result['product_var'] = $this->model->getproduct_variation($id);
